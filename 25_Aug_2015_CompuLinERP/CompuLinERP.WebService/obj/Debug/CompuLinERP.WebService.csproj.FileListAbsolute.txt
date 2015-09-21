@@ -1,0 +1,99 @@
+F:\Check\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.dll.config
+F:\Check\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.dll
+F:\Check\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.pdb
+F:\Check\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.API.dll
+F:\Check\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\bin\EntityFramework.dll
+F:\Check\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.API.pdb
+F:\Check\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\bin\EntityFramework.xml
+F:\Check\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.csprojResolveAssemblyReference.cache
+F:\Check\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.dll
+F:\Check\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.pdb
+E:\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.dll.config
+E:\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.dll
+E:\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.pdb
+E:\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.API.dll
+E:\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\bin\EntityFramework.dll
+E:\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.API.pdb
+E:\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\bin\EntityFramework.xml
+E:\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.dll
+E:\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.pdb
+G:\Ayani\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.csprojResolveAssemblyReference.cache
+G:\Ayani\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.dll
+G:\Ayani\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.pdb
+G:\Ayani\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.dll.config
+G:\Ayani\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.dll
+G:\Ayani\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.pdb
+G:\Ayani\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.API.dll
+G:\Ayani\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\bin\EntityFramework.dll
+G:\Ayani\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.API.pdb
+G:\Ayani\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\bin\EntityFramework.xml
+E:\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.dll.config
+E:\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.dll
+E:\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.pdb
+E:\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.API.dll
+E:\CompuLinERP\CompuLinERP.WebService\bin\EntityFramework.dll
+E:\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.API.pdb
+E:\CompuLinERP\CompuLinERP.WebService\bin\EntityFramework.xml
+E:\CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.csprojResolveAssemblyReference.cache
+E:\CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.dll
+E:\CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.pdb
+E:\ECDataAndLearnings\C#\CompuLinERP_From_Anura\CompuLinERP\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.dll.config
+E:\ECDataAndLearnings\C#\CompuLinERP_From_Anura\CompuLinERP\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.dll
+E:\ECDataAndLearnings\C#\CompuLinERP_From_Anura\CompuLinERP\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.pdb
+E:\ECDataAndLearnings\C#\CompuLinERP_From_Anura\CompuLinERP\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.API.dll
+E:\ECDataAndLearnings\C#\CompuLinERP_From_Anura\CompuLinERP\CompuLinERP\CompuLinERP.WebService\bin\EntityFramework.dll
+E:\ECDataAndLearnings\C#\CompuLinERP_From_Anura\CompuLinERP\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.API.pdb
+E:\ECDataAndLearnings\C#\CompuLinERP_From_Anura\CompuLinERP\CompuLinERP\CompuLinERP.WebService\bin\EntityFramework.xml
+E:\ECDataAndLearnings\C#\CompuLinERP_From_Anura\CompuLinERP\CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.csprojResolveAssemblyReference.cache
+E:\ECDataAndLearnings\C#\CompuLinERP_From_Anura\CompuLinERP\CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.dll
+E:\ECDataAndLearnings\C#\CompuLinERP_From_Anura\CompuLinERP\CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.pdb
+E:\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.csprojResolveAssemblyReference.cache
+D:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.dll.config
+D:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.dll
+D:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.pdb
+D:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.API.dll
+D:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.WebService\bin\EntityFramework.dll
+D:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.API.pdb
+D:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.WebService\bin\EntityFramework.xml
+D:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.csprojResolveAssemblyReference.cache
+D:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.dll
+D:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.pdb
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.dll.config
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.dll
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.pdb
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.API.dll
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.WebService\bin\EntityFramework.dll
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.API.pdb
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.WebService\bin\EntityFramework.xml
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.dll
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.pdb
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.dll.config
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.dll
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.pdb
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.API.dll
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\EntityFramework.dll
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.API.pdb
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\EntityFramework.xml
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.csprojResolveAssemblyReference.cache
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.dll
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.pdb
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.dll.config
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.dll
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.pdb
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.API.dll
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\EntityFramework.dll
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.API.pdb
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\EntityFramework.xml
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.csprojResolveAssemblyReference.cache
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.dll
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.pdb
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.dll.config
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.dll
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.pdb
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.API.dll
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\EntityFramework.dll
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.API.pdb
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\EntityFramework.xml
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.csprojResolveAssemblyReference.cache
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.dll
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.pdb

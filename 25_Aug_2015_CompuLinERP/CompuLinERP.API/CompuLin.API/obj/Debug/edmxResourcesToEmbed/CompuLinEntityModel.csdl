@@ -1,0 +1,1014 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CompuLinERP.API.CompuLinEntityModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="CompuLinEntityModelEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ACC_CAT_L1" EntityType="CompuLinERP.API.CompuLinEntityModel.ACC_CAT_L1" />
+    <EntitySet Name="ACC_CAT_L2" EntityType="CompuLinERP.API.CompuLinEntityModel.ACC_CAT_L2" />
+    <EntitySet Name="ACC_CAT_L3" EntityType="CompuLinERP.API.CompuLinEntityModel.ACC_CAT_L3" />
+    <EntitySet Name="ACC_CAT_L4" EntityType="CompuLinERP.API.CompuLinEntityModel.ACC_CAT_L4" />
+    <EntitySet Name="ACC_CAT_L5" EntityType="CompuLinERP.API.CompuLinEntityModel.ACC_CAT_L5" />
+    <EntitySet Name="CAT_L2" EntityType="CompuLinERP.API.CompuLinEntityModel.CAT_L2" />
+    <EntitySet Name="CAT_L3" EntityType="CompuLinERP.API.CompuLinEntityModel.CAT_L3" />
+    <EntitySet Name="CAT_L4" EntityType="CompuLinERP.API.CompuLinEntityModel.CAT_L4" />
+    <EntitySet Name="CAT_MAST" EntityType="CompuLinERP.API.CompuLinEntityModel.CAT_MAST" />
+    <EntitySet Name="CUST_MAST" EntityType="CompuLinERP.API.CompuLinEntityModel.CUST_MAST" />
+    <EntitySet Name="CUSTOMER_LEDGER" EntityType="CompuLinERP.API.CompuLinEntityModel.CUSTOMER_LEDGER" />
+    <EntitySet Name="DocumentInfoes" EntityType="CompuLinERP.API.CompuLinEntityModel.DocumentInfo" />
+    <EntitySet Name="F2HELP_MAST" EntityType="CompuLinERP.API.CompuLinEntityModel.F2HELP_MAST" />
+    <EntitySet Name="GLs" EntityType="CompuLinERP.API.CompuLinEntityModel.GL" />
+    <EntitySet Name="GRN_DETAIL" EntityType="CompuLinERP.API.CompuLinEntityModel.GRN_DETAIL" />
+    <EntitySet Name="GRN_MAST" EntityType="CompuLinERP.API.CompuLinEntityModel.GRN_MAST" />
+    <EntitySet Name="INV_DETAIL" EntityType="CompuLinERP.API.CompuLinEntityModel.INV_DETAIL" />
+    <EntitySet Name="INV_MAST" EntityType="CompuLinERP.API.CompuLinEntityModel.INV_MAST" />
+    <EntitySet Name="ITEM_CUTLIST" EntityType="CompuLinERP.API.CompuLinEntityModel.ITEM_CUTLIST" />
+    <EntitySet Name="ITEM_MAST" EntityType="CompuLinERP.API.CompuLinEntityModel.ITEM_MAST" />
+    <EntitySet Name="ITEM_SUPP" EntityType="CompuLinERP.API.CompuLinEntityModel.ITEM_SUPP" />
+    <EntitySet Name="LOCA_MAST" EntityType="CompuLinERP.API.CompuLinEntityModel.LOCA_MAST" />
+    <EntitySet Name="NAVIGATIONs" EntityType="CompuLinERP.API.CompuLinEntityModel.NAVIGATION" />
+    <EntitySet Name="PHY_MAST" EntityType="CompuLinERP.API.CompuLinEntityModel.PHY_MAST" />
+    <EntitySet Name="PRICE_TYPES" EntityType="CompuLinERP.API.CompuLinEntityModel.PRICE_TYPES" />
+    <EntitySet Name="RECEIPT_DETAIL" EntityType="CompuLinERP.API.CompuLinEntityModel.RECEIPT_DETAIL" />
+    <EntitySet Name="RECEIPT_INV" EntityType="CompuLinERP.API.CompuLinEntityModel.RECEIPT_INV" />
+    <EntitySet Name="RECEIPT_MAST" EntityType="CompuLinERP.API.CompuLinEntityModel.RECEIPT_MAST" />
+    <EntitySet Name="STOCKs" EntityType="CompuLinERP.API.CompuLinEntityModel.STOCK" />
+    <EntitySet Name="SUPP_MAST" EntityType="CompuLinERP.API.CompuLinEntityModel.SUPP_MAST" />
+    <EntitySet Name="TAX_MAST" EntityType="CompuLinERP.API.CompuLinEntityModel.TAX_MAST" />
+    <EntitySet Name="TRANS_DETAIL" EntityType="CompuLinERP.API.CompuLinEntityModel.TRANS_DETAIL" />
+    <EntitySet Name="TRANS_MAST" EntityType="CompuLinERP.API.CompuLinEntityModel.TRANS_MAST" />
+    <EntitySet Name="TXN_TYPES" EntityType="CompuLinERP.API.CompuLinEntityModel.TXN_TYPES" />
+    <EntitySet Name="UNIT_MAST" EntityType="CompuLinERP.API.CompuLinEntityModel.UNIT_MAST" />
+    <EntitySet Name="USERINFOes" EntityType="CompuLinERP.API.CompuLinEntityModel.USERINFO" />
+    <EntitySet Name="ITEM_MAST_003" EntityType="CompuLinERP.API.CompuLinEntityModel.ITEM_MAST_003" />
+    <EntitySet Name="ITEM_MAST_004" EntityType="CompuLinERP.API.CompuLinEntityModel.ITEM_MAST_004" />
+    <EntitySet Name="NETWORKs" EntityType="CompuLinERP.API.CompuLinEntityModel.NETWORK" />
+    <EntitySet Name="LOCA_DETAIL" EntityType="CompuLinERP.API.CompuLinEntityModel.LOCA_DETAIL" />
+  </EntityContainer>
+  <EntityType Name="ACC_CAT_L1">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="CAT_L1" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_L1" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_DESC" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ACCTYPE" Type="String" Nullable="false" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="USERCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="REMOVE" Type="Int32" Nullable="false" />
+    <Property Name="CHANGED" Type="Int32" Nullable="false" />
+    <Property Name="CHANGED_DATE" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="CHANGED_USERCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ACC_CAT_L2">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="CAT_L1" />
+      <PropertyRef Name="CAT_L2" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_L1" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_L2" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_DESC" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="USERCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="REMOVE" Type="Int32" Nullable="false" />
+    <Property Name="CHANGED" Type="Int32" Nullable="false" />
+    <Property Name="CHANGED_DATE" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="CHANGED_USERCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ACC_CAT_L3">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="CAT_L1" />
+      <PropertyRef Name="CAT_L2" />
+      <PropertyRef Name="CAT_L3" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_L1" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_L2" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_L3" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_DESC" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="USERCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="REMOVE" Type="Int32" Nullable="false" />
+    <Property Name="CHANGED" Type="Int32" Nullable="false" />
+    <Property Name="CHANGED_DATE" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="CHANGED_USERCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ACC_CAT_L4">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="CAT_L1" />
+      <PropertyRef Name="CAT_L2" />
+      <PropertyRef Name="CAT_L3" />
+      <PropertyRef Name="CAT_L4" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_L1" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_L2" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_L3" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_L4" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_DESC" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="USERCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="REMOVE" Type="Int32" Nullable="false" />
+    <Property Name="CHANGED" Type="Int32" Nullable="false" />
+    <Property Name="CHANGED_DATE" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="CHANGED_USERCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ACC_CAT_L5">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="CAT_L1" />
+      <PropertyRef Name="CAT_L2" />
+      <PropertyRef Name="CAT_L3" />
+      <PropertyRef Name="CAT_L4" />
+      <PropertyRef Name="CAT_L5" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_L1" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_L2" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_L3" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_L4" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_L5" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_DESC" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="USERCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FROM_RANGE" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="TO_RANGE" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="REMOVE" Type="Int32" Nullable="false" />
+    <Property Name="CHANGED" Type="Int32" Nullable="false" />
+    <Property Name="CHANGED_DATE" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="CHANGED_USERCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="CAT_L2">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="CATCODE" />
+      <PropertyRef Name="CATCODE_L2" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CATCODE" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CATCODE_L2" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_DESC" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="USERCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CHANGED" Type="Int32" Nullable="false" />
+    <Property Name="CHANGEDDATE" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="REMOVE" Type="Int32" Nullable="false" />
+    <Property Name="PURCH_GLCODE" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="GLCODE" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="CAT_L3">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="CATCODE" />
+      <PropertyRef Name="CATCODE_L2" />
+      <PropertyRef Name="CATCODE_L3" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CATCODE" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CATCODE_L2" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CATCODE_L3" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_DESC" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="USERCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CHANGED" Type="Int32" Nullable="false" />
+    <Property Name="CHANGEDDATE" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="REMOVE" Type="Int32" />
+    <Property Name="GLCODE" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="PURCH_GLCODE" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="CAT_L4">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="CATCODE" />
+      <PropertyRef Name="CATCODE_L2" />
+      <PropertyRef Name="CATCODE_L3" />
+      <PropertyRef Name="CATCODE_L4" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CATCODE" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CATCODE_L2" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CATCODE_L3" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CATCODE_L4" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_DESC" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="USERCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CHANGED" Type="Int32" />
+    <Property Name="CHANGEDDATE" Type="DateTime" Precision="3" />
+    <Property Name="GLCODE" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="PURCH_GLCODE" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="REMOVE" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_MAST">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="CAT_CODE" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_CODE" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_DESC" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="USERCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="GLCODE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PURCH_GLCODE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="REMOVE" Type="Int32" Nullable="false" />
+    <Property Name="CHANGED" Type="Int32" Nullable="false" />
+    <Property Name="CHANGEDDATE" Type="DateTime" Nullable="false" Precision="0" />
+  </EntityType>
+  <EntityType Name="CUST_MAST">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="CUST_CODE" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUST_CODE" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CUST_NAME" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CUST_ADDRESS1" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="CUST_ADDRESS2" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="CUST_PHONE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUST_EMAIL" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUST_VATNO" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="USERCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CREDIT_PERIOD" Type="Single" Nullable="false" />
+    <Property Name="CREDIT_LIMIT" Type="Single" Nullable="false" />
+    <Property Name="GLCODE" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="AR_OPBAL" Type="Single" />
+    <Property Name="AR_OPBAL_BALANCE" Type="Single" />
+    <Property Name="CUST_ADDRESS3" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="CUST_CONTACT_PERSON" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="CUST_FAX" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="ISVATEXCEMPTED" Type="Int32" />
+    <Property Name="OLD_GLCODE" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CUST_SVATNO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="REFNO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AUDIT_MEMO" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="AUDIT_DATE" Type="DateTime" Precision="0" />
+    <Property Name="IS_AUDITED" Type="Int32" />
+    <Property Name="CUST_TYPE" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="CREDIT_BALANCE" Type="Double" />
+  </EntityType>
+  <EntityType Name="CUSTOMER_LEDGER">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="CUST_CODE" />
+      <PropertyRef Name="TXN_TYPE" />
+      <PropertyRef Name="DOC_NO" />
+      <PropertyRef Name="CSH_CRD" />
+      <PropertyRef Name="LOCA" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Name="CUST_CODE" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="TXN_TYPE" Type="String" Nullable="false" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Name="DOC_NO" Type="String" Nullable="false" MaxLength="16" FixedLength="false" Unicode="true" />
+    <Property Name="CSH_CRD" Type="String" Nullable="false" MaxLength="4" FixedLength="false" Unicode="true" />
+    <Property Name="LOCA" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TXN_DATE" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="SEQ_NO" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="REFNO" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TXN_TOTAL" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="VAT_AMT" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="NBT_AMT" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="COST_AMT" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="PAYABLE_AMT" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="PAYABLE_BALANCE" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="SETTLED_RECEIPT_NO" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SETTLED_DATE" Type="DateTime" Precision="3" />
+    <Property Name="SETTLED_USER" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="DocumentInfo">
+    <Key>
+      <PropertyRef Name="Unik" />
+    </Key>
+    <Property Name="Info" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="DocumentNumber" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Unik" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="F2HELP_MAST">
+    <Key>
+      <PropertyRef Name="SEQ_NO" />
+    </Key>
+    <Property Name="SEQ_NO" Type="Int32" Nullable="false" />
+    <Property Name="TABLE_NAME" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="F1" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="F2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="F3" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="F4" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="F5" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="F6" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="F7" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="F8" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="GL">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="GLCODE" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_L1" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_L2" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_L3" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_L4" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_L5" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="GLCODE" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="GLDESC" Type="String" Nullable="false" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="IS_CONTROL_ACC" Type="Int32" />
+    <Property Name="IS_CASHBOOK" Type="Int32" />
+    <Property Name="IS_BANK" Type="Int32" />
+    <Property Name="TYPE_DR_CR" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="BANK_ABR" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="OPBAL" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="BS_OPBAL" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="BUDGET_AMT" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="IS_PROTECTED" Type="Int32" />
+    <Property Name="REC_UPTO_DATE" Type="DateTime" Precision="0" />
+    <Property Name="USERCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CHANGED_DATE" Type="DateTime" Precision="0" />
+    <Property Name="CHANGED_USERCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GRN_DETAIL">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="LOCA" />
+      <PropertyRef Name="GRN_NO" />
+      <PropertyRef Name="ITEM_LOCA" />
+      <PropertyRef Name="ITEM" />
+      <PropertyRef Name="UNIT" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LOCA" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="GRN_NO" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ITEM_LOCA" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="ITEM" Type="String" Nullable="false" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Name="ITEM_DESC" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="UNIT" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="QTY" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="BULK_UNIT" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="LOOSE_UNIT" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="BULK_SALES_PRICE" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="LOOSE_SALES_PRICE" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="BULK_QTY" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="LOOSE_QTY" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="IS_DISCOUNT_PER" Type="Decimal" Nullable="false" Precision="1" Scale="0" />
+    <Property Name="DISCOUNT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="TOTAL" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="DISCOUNT_AMT" Type="Decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="GRN_MAST">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="LOCA" />
+      <PropertyRef Name="GRN_NO" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LOCA" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="GRN_NO" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="GRN_TYPE" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="SUPP_CODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SUPP_NAME" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="TXN_DATE" Type="DateTime" Precision="3" />
+    <Property Name="GRN_DATE" Type="DateTime" Precision="3" />
+    <Property Name="TXN_TIME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="REF" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DN_NO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TOTAL" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="IS_DISCOUNT_PER" Type="Decimal" Precision="1" Scale="0" />
+    <Property Name="TOTAL_AFTER_DISCOUNT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="VAT_AMOUNT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="NBT_AMOUNT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="COST_AMOUNT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="DEDUCTIONS" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="PAYABLE_AMOUNT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="PAY_BALANCE" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="PAY_STATUS" Type="Decimal" Precision="1" Scale="0" />
+    <Property Name="PAY_IN_PROGRESS" Type="Decimal" Precision="1" Scale="0" />
+    <Property Name="VAT_CODE1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="VAT_CODE2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="BRANCH_CODE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TERMINAL_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="USERCODE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CANCELLED" Type="Int32" />
+    <Property Name="CANCEL_USERCODE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CANCEL_DATE" Type="DateTime" Precision="3" />
+    <Property Name="CANCEL_TIME" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="PRINTED" Type="Decimal" Precision="1" Scale="0" />
+    <Property Name="DISCOUNT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="DISCOUNT_AMT" Type="Decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="INV_DETAIL">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="LOCA" />
+      <PropertyRef Name="CSH_CRD" />
+      <PropertyRef Name="INV_NO" />
+      <PropertyRef Name="ITEM_LOCA" />
+      <PropertyRef Name="ITEM" />
+      <PropertyRef Name="UNIT" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LOCA" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CSH_CRD" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="INV_NO" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ITEM_LOCA" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="ITEM" Type="String" Nullable="false" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Name="ITEM_DESC" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="UNIT" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="QTY" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="BULK_UNIT" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="LOOSE_UNIT" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="BULK_SALES_PRICE" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="LOOSE_SALES_PRICE" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="BULK_QTY" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="LOOSE_QTY" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="IS_DISCOUNT_PER" Type="Decimal" Nullable="false" Precision="1" Scale="0" />
+    <Property Name="DISCOUNT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="TOTAL" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="DISCOUNT_AMT" Type="Decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="INV_MAST">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="LOCA" />
+      <PropertyRef Name="CSH_CRD" />
+      <PropertyRef Name="INV_NO" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LOCA" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CSH_CRD" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="INV_NO" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="INV_TYPE" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CUST_CODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUST_NAME" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="TXN_DATE" Type="DateTime" Precision="3" />
+    <Property Name="INV_DATE" Type="DateTime" Precision="3" />
+    <Property Name="TXN_TIME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="REF" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DN_NO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TOTAL" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="IS_DISCOUNT_PER" Type="Decimal" Precision="1" Scale="0" />
+    <Property Name="TOTAL_AFTER_DISCOUNT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="VAT_AMOUNT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="NBT_AMOUNT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="COST_AMOUNT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="DEDUCTIONS" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="PAYABLE_AMOUNT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="PAY_BALANCE" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="PAY_STATUS" Type="Decimal" Precision="1" Scale="0" />
+    <Property Name="PAY_IN_PROGRESS" Type="Decimal" Precision="1" Scale="0" />
+    <Property Name="VAT_CODE1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="VAT_CODE2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="BRANCH_CODE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TERMINAL_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="INVOICE_E" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="AMOUNT_IN_WORD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="USERCODE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CANCELLED" Type="Int32" />
+    <Property Name="CANCEL_USERCODE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CANCEL_DATE" Type="DateTime" Precision="3" />
+    <Property Name="CANCEL_TIME" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="PRINTED" Type="Decimal" Precision="1" Scale="0" />
+    <Property Name="DISCOUNT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="DISCOUNT_AMT" Type="Decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="ITEM_CUTLIST">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="LOCA_CODE" />
+      <PropertyRef Name="ITEM" />
+      <PropertyRef Name="CUT_ITEM" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LOCA_CODE" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="ITEM" Type="String" Nullable="false" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Name="CUT_ITEM" Type="String" Nullable="false" MaxLength="35" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ITEM_MAST">
+    <Key>
+      <PropertyRef Name="ITEM" />
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="LOCA_CODE" />
+    </Key>
+    <Property Name="ITEM" Type="String" Nullable="false" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Name="DESC1" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="DESC2" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PACK" Type="Decimal" Nullable="false" Precision="5" Scale="0" />
+    <Property Name="UNIT" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="ROL" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ROQ" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="MAX_S" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="MIN_S" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="QIH" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="BF_BAL" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="CF_BAL" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="COST_PRICE" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="IS_ROUND" Type="Boolean" />
+    <Property Name="IS_CUTTED" Type="Boolean" />
+    <Property Name="CUT_STAT" Type="Int32" />
+    <Property Name="LENGTH" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="WIDTH" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="ITEM_UNIT1" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="ITEM_UNIT2" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="ACTUAL_COST" Type="Int32" />
+    <Property Name="IS_SERVICE_ITEM" Type="Int32" />
+    <Property Name="LAST_CHANGE_DATE" Type="DateTime" Precision="0" />
+    <Property Name="UNIT_1_QTY" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="UNIT_2_QTY" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="BACK_UNIT_1_QTY" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="BACK_UNIT_2_QTY" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ACTIVE_STAT" Type="Int32" />
+    <Property Name="CHANGED" Type="Int32" />
+    <Property Name="UNIT_1_RESERVED_QTY" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="UNIT_2_RESERVED_QTY" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LOCA_CODE" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CATCODE" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CATCODE_L2" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CATCODE_L3" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="ITEM_UNIT0" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="Is_stocks_in_second__unit" Type="Int32" Nullable="false" />
+    <Property Name="CATCODE_L4" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="SALES_PRICE_BULK" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="SALES_PRICE_LOOSE" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="COST_PRICE_BULK" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="COST_PRICE_LOOSE" Type="Decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="ITEM_SUPP">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="ITEMCODE" />
+      <PropertyRef Name="LOCA_CODE" />
+      <PropertyRef Name="SUPP_CODE" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ITEMCODE" Type="String" Nullable="false" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Name="LOCA_CODE" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="SUPP_CODE" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="P_PRICE" Type="Single" Nullable="false" />
+    <Property Name="Last_Change_Date" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="LOCA_MAST">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="LOCA_CODE" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LOCA_CODE" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="LOCA_DESCRIPT" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LOCA_LABEL" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PHY_NO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="INV_NO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CASH_INV_NO" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CREDIT_INV_NO" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GRN_NO" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUTNO" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TRANSNO" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ADJ_NO" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="REC_NO" Type="String" MaxLength="16" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="NAVIGATION">
+    <Key>
+      <PropertyRef Name="Unik" />
+    </Key>
+    <Property Name="PARENT" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="CHILD" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="SEQ" Type="Int32" />
+    <Property Name="PATH" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Unik" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="PHY_MAST">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="PHY_NO" />
+      <PropertyRef Name="LOCA" />
+      <PropertyRef Name="ITEM" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PHY_NO" Type="String" Nullable="false" MaxLength="16" FixedLength="false" Unicode="true" />
+    <Property Name="LOCA" Type="String" Nullable="false" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Name="ITEM" Type="String" Nullable="false" MaxLength="35" FixedLength="false" Unicode="true" />
+    <Property Name="PHY_DATE" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="PHY_TIME" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="USERCODE" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="BULK_QTY" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="LOOSE_QTY" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="PRICE_TYPES">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="TXN_TYPE" />
+      <PropertyRef Name="PRICE_CODE" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TXN_TYPE" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="PRICE_CODE" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="PRICE_NAME" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="RECEIPT_DETAIL">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="REC_NO" />
+      <PropertyRef Name="MODE_" />
+      <PropertyRef Name="REC_DESC" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="REC_NO" Type="String" Nullable="false" MaxLength="16" FixedLength="false" Unicode="false" />
+    <Property Name="REC_DATE" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="REFNO" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="REFSYS" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="MODE_" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="REC_DESC" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="AMOUNT" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="DEPBANK" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="POSTED" Type="Int32" Nullable="false" />
+    <Property Name="CANPOSTED" Type="Int32" Nullable="false" />
+    <Property Name="ISREBANK" Type="Int32" Nullable="false" />
+    <Property Name="CHQ_DATE" Type="DateTime" Precision="0" />
+    <Property Name="DIRECT_SETTLE_TIME" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="RECEIPT_INV">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="REC_NO" />
+      <PropertyRef Name="SEQ_NO" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="REC_NO" Type="String" Nullable="false" MaxLength="16" FixedLength="false" Unicode="false" />
+    <Property Name="REC_TYPE" Type="String" Nullable="false" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="INV_NO" Type="String" Nullable="false" MaxLength="16" FixedLength="false" Unicode="false" />
+    <Property Name="CSH_CRD" Type="String" Nullable="false" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="LOCA" Type="String" Nullable="false" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="TXN_DATE" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="SETTLED_AMT" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="BAL_AMT" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="SEQ_NO" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RECEIPT_MAST">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="REC_NO" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="REC_NO" Type="String" Nullable="false" MaxLength="16" FixedLength="false" Unicode="false" />
+    <Property Name="REC_DATE" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="REC_TIME" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUST" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CUST_NAME" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="REFNO" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="REFSYS" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="AMOUNT" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="TOTCHQS" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="TOTCASH" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="REC_MEMO" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="DEPBANK" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="GLCSHDB" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="GLCHQDB" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="USERCODE" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CANCEL" Type="Int32" Nullable="false" />
+    <Property Name="CUSER" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="PRINTED" Type="Int32" Nullable="false" />
+    <Property Name="POSTED" Type="Int32" Nullable="false" />
+    <Property Name="CANPOSTED" Type="Int32" Nullable="false" />
+    <Property Name="ISREBANK" Type="Int32" Nullable="false" />
+    <Property Name="OVERPAYMENT" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="PAY_TYPE" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="REC_TYPE" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ISADVANCE" Type="Int32" />
+    <Property Name="BALANCE_AMT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="AMOUNT_IN_WORDS" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="REFERENCE_DETAILS" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="IS_ALL_CASH" Type="Int32" />
+    <Property Name="IS_ALL_BANK" Type="Int32" />
+    <Property Name="DIRECT_SETTLE_USER" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DIRECT_SETTLE_DATE" Type="DateTime" Precision="0" />
+    <Property Name="DIRECT_SETTLE_TIME" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="STOCK">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="LOCA" />
+      <PropertyRef Name="ITEM" />
+      <PropertyRef Name="TXN_TYPE" />
+      <PropertyRef Name="DOC_NO" />
+      <PropertyRef Name="CSH_CRD" />
+      <PropertyRef Name="LOCA_TO" />
+      <PropertyRef Name="UNIT" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Name="LOCA" Type="String" Nullable="false" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Name="ITEM" Type="String" Nullable="false" MaxLength="35" FixedLength="false" Unicode="true" />
+    <Property Name="TXN_TYPE" Type="String" Nullable="false" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Name="DOC_NO" Type="String" Nullable="false" MaxLength="16" FixedLength="false" Unicode="true" />
+    <Property Name="CSH_CRD" Type="String" Nullable="false" MaxLength="4" FixedLength="false" Unicode="true" />
+    <Property Name="LOCA_TO" Type="String" Nullable="false" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Name="UNIT" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="LOCA_TO_DESC" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TXN_DATE" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="SEQ_NO" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="REFNO" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PURCHASE_PRICE" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="COST_PRICE" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="BULK_UNIT" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="LOOSE_UNIT" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="BULK_QTY" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="LOOSE_QTY" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="DOC_BAL_BULK_QTY" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="DOC_BAL_LOOSE_QTY" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="STOCK_TYPE" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="IS_MONTH_END" Type="Int32" Nullable="false" />
+    <Property Name="SEQ_NO_FULL" Type="Decimal" Nullable="false" Precision="8" Scale="0" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="SUPP_MAST">
+    <Key>
+      <PropertyRef Name="COMCODE" />
+      <PropertyRef Name="SUPP_CODE" />
+    </Key>
+    <Property Name="COMCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SUPP_CODE" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SUPP_NAME" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="SUPP_ADDRESS1" Type="String" Nullable="false" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Name="SUPP_ADDRESS2" Type="String" Nullable="false" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Name="SUPP_PHONE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SUPP_EMAIL" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="USERCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CREDIT_LIMIT" Type="Single" Nullable="false" />
+    <Property Name="CREDIT_PERIOD" Type="Single" Nullable="false" />
+    <Property Name="GLCODE" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="AP_OPBAL" Type="Single" Nullable="false" />
+    <Property Name="AP_OPBAL_BALANCE" Type="Single" Nullable="false" />
+    <Property Name="SUPP_FAX" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="SUPP_ADDRESS3" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="SUPP_CONTACT_PERSON" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="SUPP_VATNO" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="OLD_GLCODE" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TAX_MAST">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="TAXCODE" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TAXCODE" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="TAXDESC" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TAXAMOUNT" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="TRANS_DETAIL">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="LOCA_FROM" />
+      <PropertyRef Name="TRANS_NO" />
+      <PropertyRef Name="ITEM_LOCA" />
+      <PropertyRef Name="ITEM" />
+      <PropertyRef Name="UNIT" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LOCA_FROM" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="TRANS_NO" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ITEM_LOCA" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="TRANS_DATE" Type="DateTime" Precision="3" />
+    <Property Name="ITEM" Type="String" Nullable="false" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Name="ITEM_DESC" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="UNIT" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="QTY" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="BULK_UNIT" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="LOOSE_UNIT" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="BULK_SALES_PRICE" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="LOOSE_SALES_PRICE" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="BULK_QTY" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="LOOSE_QTY" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="IS_DISCOUNT_PER" Type="Decimal" Nullable="false" Precision="1" Scale="0" />
+    <Property Name="DISCOUNT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="TOTAL" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="DISCOUNT_AMT" Type="Decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="TRANS_MAST">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="LOCA_FROM" />
+      <PropertyRef Name="TRANS_NO" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LOCA_FROM" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="LOCA_TO" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="TRANS_NO" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="NOTE01" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="NOTE02" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SEQNO_01" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="SEQNO_02" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="SEQNO_03" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="SEQREF_01" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="SEQREF_02" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="SEQREF_03" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="TXN_DATE" Type="DateTime" Precision="3" />
+    <Property Name="TRANS_DATE" Type="DateTime" Precision="3" />
+    <Property Name="TXN_TIME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TOTAL" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="IS_DISCOUNT_PER" Type="Decimal" Precision="1" Scale="0" />
+    <Property Name="TOTAL_AFTER_DISCOUNT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="VAT_AMOUNT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="NBT_AMOUNT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="COST_AMOUNT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="PAYABLE_AMOUNT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="PAY_BALANCE" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="PAY_STATUS" Type="Decimal" Precision="1" Scale="0" />
+    <Property Name="PAY_IN_PROGRESS" Type="Decimal" Precision="1" Scale="0" />
+    <Property Name="VAT_CODE1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="VAT_CODE2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="BRANCH_CODE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TERMINAL_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="USERCODE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CANCELLED" Type="Int32" />
+    <Property Name="CANCEL_USERCODE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CANCEL_DATE" Type="DateTime" Precision="3" />
+    <Property Name="CANCEL_TIME" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="PRINTED" Type="Decimal" Precision="1" Scale="0" />
+    <Property Name="DISCOUNT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="DISCOUNT_AMT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ACCEPTED" Type="Int32" />
+    <Property Name="ACCEPT_USERCODE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ACCEPT_DATE" Type="DateTime" Precision="3" />
+    <Property Name="ACCEPT_TIME" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="ACCEPT_BRANCH_CODE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ACCEPT_TERMINAL_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TXN_TYPES">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="TXN_TYPE" />
+      <PropertyRef Name="TXN_CODE" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TXN_TYPE" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="TXN_CODE" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="TXN_NAME" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="UNIT_MAST">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="UNIT_CODE" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="UNIT_CODE" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="UNIT_DESC" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="USERINFO">
+    <Key>
+      <PropertyRef Name="USERCODE" />
+      <PropertyRef Name="COMPCODE" />
+    </Key>
+    <Property Name="FullName" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="NIC" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Birthday" Type="DateTime" Precision="0" />
+    <Property Name="Password" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="USERCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="UserLevel" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="RightCodes" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="DepartmentCode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DesignationCode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AllowedLocations" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="ITEM_MAST_003">
+    <Key>
+      <PropertyRef Name="ITEM" />
+      <PropertyRef Name="DESC1" />
+      <PropertyRef Name="DESC2" />
+      <PropertyRef Name="PACK" />
+      <PropertyRef Name="UNIT" />
+      <PropertyRef Name="LENGTH" />
+      <PropertyRef Name="WIDTH" />
+      <PropertyRef Name="ITEM_UNIT1" />
+      <PropertyRef Name="ITEM_UNIT2" />
+      <PropertyRef Name="UNIT_1_QTY" />
+      <PropertyRef Name="UNIT_2_QTY" />
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="LOCA_CODE" />
+      <PropertyRef Name="CATCODE" />
+      <PropertyRef Name="ITEM_UNIT0" />
+      <PropertyRef Name="Is_stocks_in_second__unit" />
+    </Key>
+    <Property Name="ITEM" Type="String" Nullable="false" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Name="DESC1" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="DESC2" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PACK" Type="Decimal" Nullable="false" Precision="5" Scale="0" />
+    <Property Name="UNIT" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="ROL" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ROQ" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="MAX_S" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="MIN_S" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="QIH" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="BF_BAL" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="CF_BAL" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="COST_PRICE" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="IS_ROUND" Type="Boolean" />
+    <Property Name="IS_CUTTED" Type="Boolean" />
+    <Property Name="CUT_STAT" Type="Int32" />
+    <Property Name="LENGTH" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="WIDTH" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="ITEM_UNIT1" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="ITEM_UNIT2" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="ACTUAL_COST" Type="Int32" />
+    <Property Name="IS_SERVICE_ITEM" Type="Int32" />
+    <Property Name="LAST_CHANGE_DATE" Type="DateTime" Precision="0" />
+    <Property Name="UNIT_1_QTY" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="UNIT_2_QTY" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="BACK_UNIT_1_QTY" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="BACK_UNIT_2_QTY" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ACTIVE_STAT" Type="Int32" />
+    <Property Name="CHANGED" Type="Int32" />
+    <Property Name="UNIT_1_RESERVED_QTY" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="UNIT_2_RESERVED_QTY" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LOCA_CODE" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CATCODE" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CATCODE_L2" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CATCODE_L3" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="ITEM_UNIT0" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="Is_stocks_in_second__unit" Type="Int32" Nullable="false" />
+    <Property Name="CATCODE_L4" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="SALES_PRICE_BULK" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="SALES_PRICE_LOOSE" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="COST_PRICE_BULK" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="COST_PRICE_LOOSE" Type="Decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="ITEM_MAST_004">
+    <Key>
+      <PropertyRef Name="ITEM" />
+      <PropertyRef Name="DESC1" />
+      <PropertyRef Name="DESC2" />
+      <PropertyRef Name="PACK" />
+      <PropertyRef Name="UNIT" />
+      <PropertyRef Name="LENGTH" />
+      <PropertyRef Name="WIDTH" />
+      <PropertyRef Name="ITEM_UNIT1" />
+      <PropertyRef Name="ITEM_UNIT2" />
+      <PropertyRef Name="UNIT_1_QTY" />
+      <PropertyRef Name="UNIT_2_QTY" />
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="LOCA_CODE" />
+      <PropertyRef Name="CATCODE" />
+      <PropertyRef Name="ITEM_UNIT0" />
+      <PropertyRef Name="Is_stocks_in_second__unit" />
+    </Key>
+    <Property Name="ITEM" Type="String" Nullable="false" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Name="DESC1" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="DESC2" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PACK" Type="Decimal" Nullable="false" Precision="5" Scale="0" />
+    <Property Name="UNIT" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="ROL" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ROQ" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="MAX_S" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="MIN_S" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="QIH" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="BF_BAL" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="CF_BAL" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="COST_PRICE" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="IS_ROUND" Type="Boolean" />
+    <Property Name="IS_CUTTED" Type="Boolean" />
+    <Property Name="CUT_STAT" Type="Int32" />
+    <Property Name="LENGTH" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="WIDTH" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="ITEM_UNIT1" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="ITEM_UNIT2" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="ACTUAL_COST" Type="Int32" />
+    <Property Name="IS_SERVICE_ITEM" Type="Int32" />
+    <Property Name="LAST_CHANGE_DATE" Type="DateTime" Precision="0" />
+    <Property Name="UNIT_1_QTY" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="UNIT_2_QTY" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="BACK_UNIT_1_QTY" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="BACK_UNIT_2_QTY" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ACTIVE_STAT" Type="Int32" />
+    <Property Name="CHANGED" Type="Int32" />
+    <Property Name="UNIT_1_RESERVED_QTY" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="UNIT_2_RESERVED_QTY" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LOCA_CODE" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CATCODE" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CATCODE_L2" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CATCODE_L3" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="ITEM_UNIT0" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="Is_stocks_in_second__unit" Type="Int32" Nullable="false" />
+    <Property Name="CATCODE_L4" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="SALES_PRICE_BULK" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="SALES_PRICE_LOOSE" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="COST_PRICE_BULK" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="COST_PRICE_LOOSE" Type="Decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="NETWORK">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+    </Key>
+    <Property Name="CompName" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="IsBranch" Type="Byte" />
+    <Property Name="BranchCode" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Telephone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="VatNo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SystemDate" Type="DateTime" Precision="0" />
+    <Property Name="ADDRESS1" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="ADDRESS2" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="ADDRESS3" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="LOCA_DETAIL">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="USERCODE" />
+      <PropertyRef Name="LOCACODE" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="USERCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LOCACODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

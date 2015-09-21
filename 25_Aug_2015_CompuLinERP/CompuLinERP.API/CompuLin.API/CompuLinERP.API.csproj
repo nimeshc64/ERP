@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{28659171-7B1E-4248-B401-6DED6FA1B98A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CompuLinERP.API</RootNamespace>
+    <AssemblyName>CompuLinERP.API</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ACC_CAT_L1.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ACC_CAT_L2.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ACC_CAT_L3.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ACC_CAT_L4.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ACC_CAT_L5.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CAT_L2.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CAT_L3.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CAT_L4.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CAT_MAST.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CompuLinEntityModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CompuLinEntityModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CompuLinEntityModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CompuLinEntityModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CompuLinEntityModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\AccountDetailsController.cs" />
+    <Compile Include="Controllers\AccountL1Controller.cs" />
+    <Compile Include="Controllers\AccountL2Controller.cs" />
+    <Compile Include="Controllers\AccountL3Controller.cs" />
+    <Compile Include="Controllers\AccountL4Controller.cs" />
+    <Compile Include="Controllers\AccountL5Controller.cs" />
+    <Compile Include="Controllers\CategoryL4Controller.cs" />
+    <Compile Include="Controllers\CategoryL3Controller.cs" />
+    <Compile Include="Controllers\CategoryL2Controller.cs" />
+    <Compile Include="Controllers\ItemCutListController.cs" />
+    <Compile Include="Controllers\GRNDetailControllers.cs" />
+    <Compile Include="Controllers\GRNMasterControllers.cs" />
+    <Compile Include="Controllers\GRNMastTransactions.cs" />
+    <Compile Include="Controllers\InvoiceMastTransactions.cs" />
+    <Compile Include="Controllers\ItemDetailsTransactions.cs" />
+    <Compile Include="Controllers\ItemSupplierController.cs" />
+    <Compile Include="Controllers\CategoryMastController.cs" />
+    <Compile Include="Controllers\DocumentInfoController.cs" />
+    <Compile Include="Controllers\CustomerMastDetailsController.cs" />
+    <Compile Include="Controllers\HelpMasterController.cs" />
+    <Compile Include="Controllers\LocationCustomizeController.cs" />
+    <Compile Include="Controllers\PhysicalStockDetailsController.cs" />
+    <Compile Include="Controllers\NavigationInfoController.cs" />
+    <Compile Include="Controllers\LocationDetailsController.cs" />
+    <Compile Include="Controllers\ItemDetailsController.cs" />
+    <Compile Include="Controllers\PhysicalStockDetailsTransactions.cs" />
+    <Compile Include="Controllers\ReceiptDetailsController.cs" />
+    <Compile Include="Controllers\ReceiptInvController.cs" />
+    <Compile Include="Controllers\ReceiptMasterController.cs" />
+    <Compile Include="Controllers\SalesPriceTypesController.cs" />
+    <Compile Include="Controllers\SupplierMasterDetailsController.cs" />
+    <Compile Include="Controllers\StockDetailsController.cs" />
+    <Compile Include="Controllers\InvoiceMastController.cs" />
+    <Compile Include="Controllers\InvoiceDetailsController.cs" />
+    <Compile Include="Controllers\TransactionTypesController.cs" />
+    <Compile Include="Controllers\TransMastTransactions.cs" />
+    <Compile Include="Controllers\UnitDetailsController.cs" />
+    <Compile Include="Controllers\UserInfoController.cs" />
+    <Compile Include="Controllers\NetworkController.cs" />
+    <Compile Include="CUSTOMER_LEDGER.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CUST_MAST.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DocumentInfo.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DynamicLibrary.cs" />
+    <Compile Include="F2HELP_MAST.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GL.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GRN_DETAIL.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GRN_MAST.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="INV_DETAIL.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="INV_MAST.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ITEM_CUTLIST.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ITEM_MAST.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ITEM_MAST_003.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ITEM_MAST_004.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ITEM_SUPP.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LOCA_DETAIL.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LOCA_MAST.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NAVIGATION.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NETWORK.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PHY_MAST.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PRICE_TYPES.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RECEIPT_DETAIL.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RECEIPT_INV.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RECEIPT_MAST.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="STOCK.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SUPP_MAST.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TAX_MAST.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TRANS_DETAIL.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TRANS_MAST.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TXN_TYPES.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UNIT_MAST.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="USERINFO.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+    <EntityDeploy Include="CompuLinEntityModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>CompuLinEntityModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="CompuLinEntityModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CompuLinEntityModel.edmx</DependentUpon>
+      <LastGenOutput>CompuLinEntityModel.Context.cs</LastGenOutput>
+    </None>
+    <None Include="CompuLinEntityModel.edmx.diagram">
+      <DependentUpon>CompuLinEntityModel.edmx</DependentUpon>
+    </None>
+    <None Include="CompuLinEntityModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CompuLinEntityModel.edmx</DependentUpon>
+      <LastGenOutput>CompuLinEntityModel.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Logger\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,23 @@
+CREATE TABLE [dbo].[RECEIPT_INV](
+ [COMPCODE] [varchar](5) NOT NULL,
+ [REC_NO] [varchar](16) NOT NULL,
+ [REC_TYPE] [varchar](8) NOT NULL,
+ [INV_NO] [varchar](16) NOT NULL,
+ [CSH_CRD] [varchar](4) NOT NULL,
+ [LOCA] [varchar](4) NOT NULL,
+ [TXN_DATE] [date] NOT NULL,
+ [SETTLED_AMT] [numeric](18,2) NOT NULL,
+ [BAL_AMT] [numeric](18,2) NOT NULL,
+ [SEQ_NO] [int] NOT NULL
+ 
+ CONSTRAINT [PK_RECEIPT_INV] PRIMARY KEY CLUSTERED 
+(
+ [COMPCODE] ASC,
+ [REC_NO] ASC,
+ [SEQ_NO] ASC
+)) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO

@@ -1,0 +1,781 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CompuLinERPAPICompuLinEntityModelStoreContainer" CdmEntityContainer="CompuLinEntityModelEntities">
+    <EntitySetMapping Name="CAT_L2">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.CAT_L2">
+        <MappingFragment StoreEntitySet="CAT_L2">
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+          <ScalarProperty Name="CATCODE" ColumnName="CATCODE" />
+          <ScalarProperty Name="CATCODE_L2" ColumnName="CATCODE_L2" />
+          <ScalarProperty Name="CAT_DESC" ColumnName="CAT_DESC" />
+          <ScalarProperty Name="USERCODE" ColumnName="USERCODE" />
+          <ScalarProperty Name="CHANGED" ColumnName="CHANGED" />
+          <ScalarProperty Name="CHANGEDDATE" ColumnName="CHANGEDDATE" />
+          <ScalarProperty Name="REMOVE" ColumnName="REMOVE" />
+          <ScalarProperty Name="PURCH_GLCODE" ColumnName="PURCH_GLCODE" />
+          <ScalarProperty Name="GLCODE" ColumnName="GLCODE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_L3">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.CAT_L3">
+        <MappingFragment StoreEntitySet="CAT_L3">
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+          <ScalarProperty Name="CATCODE" ColumnName="CATCODE" />
+          <ScalarProperty Name="CATCODE_L2" ColumnName="CATCODE_L2" />
+          <ScalarProperty Name="CATCODE_L3" ColumnName="CATCODE_L3" />
+          <ScalarProperty Name="CAT_DESC" ColumnName="CAT_DESC" />
+          <ScalarProperty Name="USERCODE" ColumnName="USERCODE" />
+          <ScalarProperty Name="CHANGED" ColumnName="CHANGED" />
+          <ScalarProperty Name="CHANGEDDATE" ColumnName="CHANGEDDATE" />
+          <ScalarProperty Name="REMOVE" ColumnName="REMOVE" />
+          <ScalarProperty Name="GLCODE" ColumnName="GLCODE" />
+          <ScalarProperty Name="PURCH_GLCODE" ColumnName="PURCH_GLCODE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_L4">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.CAT_L4">
+        <MappingFragment StoreEntitySet="CAT_L4">
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+          <ScalarProperty Name="CATCODE" ColumnName="CATCODE" />
+          <ScalarProperty Name="CATCODE_L2" ColumnName="CATCODE_L2" />
+          <ScalarProperty Name="CATCODE_L3" ColumnName="CATCODE_L3" />
+          <ScalarProperty Name="CATCODE_L4" ColumnName="CATCODE_L4" />
+          <ScalarProperty Name="CAT_DESC" ColumnName="CAT_DESC" />
+          <ScalarProperty Name="USERCODE" ColumnName="USERCODE" />
+          <ScalarProperty Name="CHANGED" ColumnName="CHANGED" />
+          <ScalarProperty Name="CHANGEDDATE" ColumnName="CHANGEDDATE" />
+          <ScalarProperty Name="GLCODE" ColumnName="GLCODE" />
+          <ScalarProperty Name="PURCH_GLCODE" ColumnName="PURCH_GLCODE" />
+          <ScalarProperty Name="REMOVE" ColumnName="REMOVE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAT_MAST">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.CAT_MAST">
+        <MappingFragment StoreEntitySet="CAT_MAST">
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+          <ScalarProperty Name="CAT_CODE" ColumnName="CAT_CODE" />
+          <ScalarProperty Name="CAT_DESC" ColumnName="CAT_DESC" />
+          <ScalarProperty Name="USERCODE" ColumnName="USERCODE" />
+          <ScalarProperty Name="GLCODE" ColumnName="GLCODE" />
+          <ScalarProperty Name="PURCH_GLCODE" ColumnName="PURCH_GLCODE" />
+          <ScalarProperty Name="REMOVE" ColumnName="REMOVE" />
+          <ScalarProperty Name="CHANGED" ColumnName="CHANGED" />
+          <ScalarProperty Name="CHANGEDDATE" ColumnName="CHANGEDDATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DocumentInfoes">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.DocumentInfo">
+        <MappingFragment StoreEntitySet="DocumentInfo">
+          <ScalarProperty Name="Info" ColumnName="Info" />
+          <ScalarProperty Name="DocumentNumber" ColumnName="DocumentNumber" />
+          <ScalarProperty Name="Unik" ColumnName="Unik" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ITEM_SUPP">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.ITEM_SUPP">
+        <MappingFragment StoreEntitySet="ITEM_SUPP">
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+          <ScalarProperty Name="ITEMCODE" ColumnName="ITEMCODE" />
+          <ScalarProperty Name="LOCA_CODE" ColumnName="LOCA_CODE" />
+          <ScalarProperty Name="SUPP_CODE" ColumnName="SUPP_CODE" />
+          <ScalarProperty Name="P_PRICE" ColumnName="P_PRICE" />
+          <ScalarProperty Name="Last_Change_Date" ColumnName="Last_Change_Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NAVIGATIONs">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.NAVIGATION">
+        <MappingFragment StoreEntitySet="NAVIGATION">
+          <ScalarProperty Name="PARENT" ColumnName="PARENT" />
+          <ScalarProperty Name="CHILD" ColumnName="CHILD" />
+          <ScalarProperty Name="SEQ" ColumnName="SEQ" />
+          <ScalarProperty Name="PATH" ColumnName="PATH" />
+          <ScalarProperty Name="Unik" ColumnName="Unik" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NETWORKs">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.NETWORK">
+        <MappingFragment StoreEntitySet="NETWORK">
+          <ScalarProperty Name="ADDRESS3" ColumnName="ADDRESS3" />
+          <ScalarProperty Name="ADDRESS2" ColumnName="ADDRESS2" />
+          <ScalarProperty Name="ADDRESS1" ColumnName="ADDRESS1" />
+          <ScalarProperty Name="CompName" ColumnName="CompName" />
+          <ScalarProperty Name="IsBranch" ColumnName="IsBranch" />
+          <ScalarProperty Name="BranchCode" ColumnName="BranchCode" />
+          <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="VatNo" ColumnName="VatNo" />
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+          <ScalarProperty Name="SystemDate" ColumnName="SystemDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SUPP_MAST">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.SUPP_MAST">
+        <MappingFragment StoreEntitySet="SUPP_MAST">
+          <ScalarProperty Name="COMCODE" ColumnName="COMCODE" />
+          <ScalarProperty Name="SUPP_CODE" ColumnName="SUPP_CODE" />
+          <ScalarProperty Name="SUPP_NAME" ColumnName="SUPP_NAME" />
+          <ScalarProperty Name="SUPP_ADDRESS1" ColumnName="SUPP_ADDRESS1" />
+          <ScalarProperty Name="SUPP_ADDRESS2" ColumnName="SUPP_ADDRESS2" />
+          <ScalarProperty Name="SUPP_PHONE" ColumnName="SUPP_PHONE" />
+          <ScalarProperty Name="SUPP_EMAIL" ColumnName="SUPP_EMAIL" />
+          <ScalarProperty Name="USERCODE" ColumnName="USERCODE" />
+          <ScalarProperty Name="CREDIT_LIMIT" ColumnName="CREDIT_LIMIT" />
+          <ScalarProperty Name="CREDIT_PERIOD" ColumnName="CREDIT_PERIOD" />
+          <ScalarProperty Name="GLCODE" ColumnName="GLCODE" />
+          <ScalarProperty Name="AP_OPBAL" ColumnName="AP_OPBAL" />
+          <ScalarProperty Name="AP_OPBAL_BALANCE" ColumnName="AP_OPBAL_BALANCE" />
+          <ScalarProperty Name="SUPP_FAX" ColumnName="SUPP_FAX" />
+          <ScalarProperty Name="SUPP_ADDRESS3" ColumnName="SUPP_ADDRESS3" />
+          <ScalarProperty Name="SUPP_CONTACT_PERSON" ColumnName="SUPP_CONTACT_PERSON" />
+          <ScalarProperty Name="SUPP_VATNO" ColumnName="SUPP_VATNO" />
+          <ScalarProperty Name="OLD_GLCODE" ColumnName="OLD_GLCODE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UNIT_MAST">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.UNIT_MAST">
+        <MappingFragment StoreEntitySet="UNIT_MAST">
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+          <ScalarProperty Name="UNIT_CODE" ColumnName="UNIT_CODE" />
+          <ScalarProperty Name="UNIT_DESC" ColumnName="UNIT_DESC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="F2HELP_MAST">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.F2HELP_MAST">
+        <MappingFragment StoreEntitySet="F2HELP_MAST">
+          <ScalarProperty Name="F8" ColumnName="F8" />
+          <ScalarProperty Name="F7" ColumnName="F7" />
+          <ScalarProperty Name="F6" ColumnName="F6" />
+          <ScalarProperty Name="F5" ColumnName="F5" />
+          <ScalarProperty Name="F4" ColumnName="F4" />
+          <ScalarProperty Name="F3" ColumnName="F3" />
+          <ScalarProperty Name="F2" ColumnName="F2" />
+          <ScalarProperty Name="F1" ColumnName="F1" />
+          <ScalarProperty Name="TABLE_NAME" ColumnName="TABLE_NAME" />
+          <ScalarProperty Name="SEQ_NO" ColumnName="SEQ_NO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PHY_MAST">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.PHY_MAST">
+        <MappingFragment StoreEntitySet="PHY_MAST">
+          <ScalarProperty Name="LOOSE_QTY" ColumnName="LOOSE_QTY" />
+          <ScalarProperty Name="BULK_QTY" ColumnName="BULK_QTY" />
+          <ScalarProperty Name="USERCODE" ColumnName="USERCODE" />
+          <ScalarProperty Name="PHY_TIME" ColumnName="PHY_TIME" />
+          <ScalarProperty Name="PHY_DATE" ColumnName="PHY_DATE" />
+          <ScalarProperty Name="ITEM" ColumnName="ITEM" />
+          <ScalarProperty Name="LOCA" ColumnName="LOCA" />
+          <ScalarProperty Name="PHY_NO" ColumnName="PHY_NO" />
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PRICE_TYPES">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.PRICE_TYPES">
+        <MappingFragment StoreEntitySet="PRICE_TYPES">
+          <ScalarProperty Name="PRICE_NAME" ColumnName="PRICE_NAME" />
+          <ScalarProperty Name="PRICE_CODE" ColumnName="PRICE_CODE" />
+          <ScalarProperty Name="TXN_TYPE" ColumnName="TXN_TYPE" />
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TXN_TYPES">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.TXN_TYPES">
+        <MappingFragment StoreEntitySet="TXN_TYPES">
+          <ScalarProperty Name="TXN_NAME" ColumnName="TXN_NAME" />
+          <ScalarProperty Name="TXN_CODE" ColumnName="TXN_CODE" />
+          <ScalarProperty Name="TXN_TYPE" ColumnName="TXN_TYPE" />
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CUST_MAST">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.CUST_MAST">
+        <MappingFragment StoreEntitySet="CUST_MAST">
+          <ScalarProperty Name="CREDIT_BALANCE" ColumnName="CREDIT_BALANCE" />
+          <ScalarProperty Name="CUST_TYPE" ColumnName="CUST_TYPE" />
+          <ScalarProperty Name="IS_AUDITED" ColumnName="IS_AUDITED" />
+          <ScalarProperty Name="AUDIT_DATE" ColumnName="AUDIT_DATE" />
+          <ScalarProperty Name="AUDIT_MEMO" ColumnName="AUDIT_MEMO" />
+          <ScalarProperty Name="REFNO" ColumnName="REFNO" />
+          <ScalarProperty Name="CUST_SVATNO" ColumnName="CUST_SVATNO" />
+          <ScalarProperty Name="OLD_GLCODE" ColumnName="OLD_GLCODE" />
+          <ScalarProperty Name="ISVATEXCEMPTED" ColumnName="ISVATEXCEMPTED" />
+          <ScalarProperty Name="CUST_FAX" ColumnName="CUST_FAX" />
+          <ScalarProperty Name="CUST_CONTACT_PERSON" ColumnName="CUST_CONTACT_PERSON" />
+          <ScalarProperty Name="CUST_ADDRESS3" ColumnName="CUST_ADDRESS3" />
+          <ScalarProperty Name="AR_OPBAL_BALANCE" ColumnName="AR_OPBAL_BALANCE" />
+          <ScalarProperty Name="AR_OPBAL" ColumnName="AR_OPBAL" />
+          <ScalarProperty Name="GLCODE" ColumnName="GLCODE" />
+          <ScalarProperty Name="CREDIT_LIMIT" ColumnName="CREDIT_LIMIT" />
+          <ScalarProperty Name="CREDIT_PERIOD" ColumnName="CREDIT_PERIOD" />
+          <ScalarProperty Name="USERCODE" ColumnName="USERCODE" />
+          <ScalarProperty Name="CUST_VATNO" ColumnName="CUST_VATNO" />
+          <ScalarProperty Name="CUST_EMAIL" ColumnName="CUST_EMAIL" />
+          <ScalarProperty Name="CUST_PHONE" ColumnName="CUST_PHONE" />
+          <ScalarProperty Name="CUST_ADDRESS2" ColumnName="CUST_ADDRESS2" />
+          <ScalarProperty Name="CUST_ADDRESS1" ColumnName="CUST_ADDRESS1" />
+          <ScalarProperty Name="CUST_NAME" ColumnName="CUST_NAME" />
+          <ScalarProperty Name="CUST_CODE" ColumnName="CUST_CODE" />
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="INV_DETAIL">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.INV_DETAIL">
+        <MappingFragment StoreEntitySet="INV_DETAIL">
+          <ScalarProperty Name="DISCOUNT_AMT" ColumnName="DISCOUNT_AMT" />
+          <ScalarProperty Name="TOTAL" ColumnName="TOTAL" />
+          <ScalarProperty Name="DISCOUNT" ColumnName="DISCOUNT" />
+          <ScalarProperty Name="IS_DISCOUNT_PER" ColumnName="IS_DISCOUNT_PER" />
+          <ScalarProperty Name="LOOSE_QTY" ColumnName="LOOSE_QTY" />
+          <ScalarProperty Name="BULK_QTY" ColumnName="BULK_QTY" />
+          <ScalarProperty Name="LOOSE_SALES_PRICE" ColumnName="LOOSE_SALES_PRICE" />
+          <ScalarProperty Name="BULK_SALES_PRICE" ColumnName="BULK_SALES_PRICE" />
+          <ScalarProperty Name="LOOSE_UNIT" ColumnName="LOOSE_UNIT" />
+          <ScalarProperty Name="BULK_UNIT" ColumnName="BULK_UNIT" />
+          <ScalarProperty Name="QTY" ColumnName="QTY" />
+          <ScalarProperty Name="UNIT" ColumnName="UNIT" />
+          <ScalarProperty Name="ITEM_DESC" ColumnName="ITEM_DESC" />
+          <ScalarProperty Name="ITEM" ColumnName="ITEM" />
+          <ScalarProperty Name="ITEM_LOCA" ColumnName="ITEM_LOCA" />
+          <ScalarProperty Name="INV_NO" ColumnName="INV_NO" />
+          <ScalarProperty Name="CSH_CRD" ColumnName="CSH_CRD" />
+          <ScalarProperty Name="LOCA" ColumnName="LOCA" />
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TAX_MAST">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.TAX_MAST">
+        <MappingFragment StoreEntitySet="TAX_MAST">
+          <ScalarProperty Name="TAXAMOUNT" ColumnName="TAXAMOUNT" />
+          <ScalarProperty Name="TAXDESC" ColumnName="TAXDESC" />
+          <ScalarProperty Name="TAXCODE" ColumnName="TAXCODE" />
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="INV_MAST">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.INV_MAST">
+        <MappingFragment StoreEntitySet="INV_MAST">
+          <ScalarProperty Name="DISCOUNT_AMT" ColumnName="DISCOUNT_AMT" />
+          <ScalarProperty Name="DISCOUNT" ColumnName="DISCOUNT" />
+          <ScalarProperty Name="PRINTED" ColumnName="PRINTED" />
+          <ScalarProperty Name="CANCEL_TIME" ColumnName="CANCEL_TIME" />
+          <ScalarProperty Name="CANCEL_DATE" ColumnName="CANCEL_DATE" />
+          <ScalarProperty Name="CANCEL_USERCODE" ColumnName="CANCEL_USERCODE" />
+          <ScalarProperty Name="CANCELLED" ColumnName="CANCELLED" />
+          <ScalarProperty Name="USERCODE" ColumnName="USERCODE" />
+          <ScalarProperty Name="AMOUNT_IN_WORD" ColumnName="AMOUNT_IN_WORD" />
+          <ScalarProperty Name="INVOICE_E" ColumnName="INVOICE_E" />
+          <ScalarProperty Name="TERMINAL_ID" ColumnName="TERMINAL_ID" />
+          <ScalarProperty Name="BRANCH_CODE" ColumnName="BRANCH_CODE" />
+          <ScalarProperty Name="VAT_CODE2" ColumnName="VAT_CODE2" />
+          <ScalarProperty Name="VAT_CODE1" ColumnName="VAT_CODE1" />
+          <ScalarProperty Name="PAY_IN_PROGRESS" ColumnName="PAY_IN_PROGRESS" />
+          <ScalarProperty Name="PAY_STATUS" ColumnName="PAY_STATUS" />
+          <ScalarProperty Name="PAY_BALANCE" ColumnName="PAY_BALANCE" />
+          <ScalarProperty Name="PAYABLE_AMOUNT" ColumnName="PAYABLE_AMOUNT" />
+          <ScalarProperty Name="DEDUCTIONS" ColumnName="DEDUCTIONS" />
+          <ScalarProperty Name="COST_AMOUNT" ColumnName="COST_AMOUNT" />
+          <ScalarProperty Name="NBT_AMOUNT" ColumnName="NBT_AMOUNT" />
+          <ScalarProperty Name="VAT_AMOUNT" ColumnName="VAT_AMOUNT" />
+          <ScalarProperty Name="TOTAL_AFTER_DISCOUNT" ColumnName="TOTAL_AFTER_DISCOUNT" />
+          <ScalarProperty Name="IS_DISCOUNT_PER" ColumnName="IS_DISCOUNT_PER" />
+          <ScalarProperty Name="TOTAL" ColumnName="TOTAL" />
+          <ScalarProperty Name="DN_NO" ColumnName="DN_NO" />
+          <ScalarProperty Name="REF" ColumnName="REF" />
+          <ScalarProperty Name="TXN_TIME" ColumnName="TXN_TIME" />
+          <ScalarProperty Name="INV_DATE" ColumnName="INV_DATE" />
+          <ScalarProperty Name="TXN_DATE" ColumnName="TXN_DATE" />
+          <ScalarProperty Name="CUST_NAME" ColumnName="CUST_NAME" />
+          <ScalarProperty Name="CUST_CODE" ColumnName="CUST_CODE" />
+          <ScalarProperty Name="INV_TYPE" ColumnName="INV_TYPE" />
+          <ScalarProperty Name="INV_NO" ColumnName="INV_NO" />
+          <ScalarProperty Name="CSH_CRD" ColumnName="CSH_CRD" />
+          <ScalarProperty Name="LOCA" ColumnName="LOCA" />
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ITEM_MAST">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.ITEM_MAST">
+        <MappingFragment StoreEntitySet="ITEM_MAST">
+          <ScalarProperty Name="COST_PRICE_LOOSE" ColumnName="COST_PRICE_LOOSE" />
+          <ScalarProperty Name="COST_PRICE_BULK" ColumnName="COST_PRICE_BULK" />
+          <ScalarProperty Name="SALES_PRICE_LOOSE" ColumnName="SALES_PRICE_LOOSE" />
+          <ScalarProperty Name="SALES_PRICE_BULK" ColumnName="SALES_PRICE_BULK" />
+          <ScalarProperty Name="CATCODE_L4" ColumnName="CATCODE_L4" />
+          <ScalarProperty Name="Is_stocks_in_second__unit" ColumnName="Is_stocks_in_second _unit" />
+          <ScalarProperty Name="ITEM_UNIT0" ColumnName="ITEM_UNIT0" />
+          <ScalarProperty Name="CATCODE_L3" ColumnName="CATCODE_L3" />
+          <ScalarProperty Name="CATCODE_L2" ColumnName="CATCODE_L2" />
+          <ScalarProperty Name="CATCODE" ColumnName="CATCODE" />
+          <ScalarProperty Name="LOCA_CODE" ColumnName="LOCA_CODE" />
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+          <ScalarProperty Name="UNIT_2_RESERVED_QTY" ColumnName="UNIT_2_RESERVED_QTY" />
+          <ScalarProperty Name="UNIT_1_RESERVED_QTY" ColumnName="UNIT_1_RESERVED_QTY" />
+          <ScalarProperty Name="CHANGED" ColumnName="CHANGED" />
+          <ScalarProperty Name="ACTIVE_STAT" ColumnName="ACTIVE_STAT" />
+          <ScalarProperty Name="BACK_UNIT_2_QTY" ColumnName="BACK_UNIT_2_QTY" />
+          <ScalarProperty Name="BACK_UNIT_1_QTY" ColumnName="BACK_UNIT_1_QTY" />
+          <ScalarProperty Name="UNIT_2_QTY" ColumnName="UNIT_2_QTY" />
+          <ScalarProperty Name="UNIT_1_QTY" ColumnName="UNIT_1_QTY" />
+          <ScalarProperty Name="LAST_CHANGE_DATE" ColumnName="LAST_CHANGE_DATE" />
+          <ScalarProperty Name="IS_SERVICE_ITEM" ColumnName="IS_SERVICE_ITEM" />
+          <ScalarProperty Name="ACTUAL_COST" ColumnName="ACTUAL_COST" />
+          <ScalarProperty Name="ITEM_UNIT2" ColumnName="ITEM_UNIT2" />
+          <ScalarProperty Name="ITEM_UNIT1" ColumnName="ITEM_UNIT1" />
+          <ScalarProperty Name="WIDTH" ColumnName="WIDTH" />
+          <ScalarProperty Name="LENGTH" ColumnName="LENGTH" />
+          <ScalarProperty Name="CUT_STAT" ColumnName="CUT_STAT" />
+          <ScalarProperty Name="IS_CUTTED" ColumnName="IS_CUTTED" />
+          <ScalarProperty Name="IS_ROUND" ColumnName="IS_ROUND" />
+          <ScalarProperty Name="COST_PRICE" ColumnName="COST_PRICE" />
+          <ScalarProperty Name="CF_BAL" ColumnName="CF_BAL" />
+          <ScalarProperty Name="BF_BAL" ColumnName="BF_BAL" />
+          <ScalarProperty Name="QIH" ColumnName="QIH" />
+          <ScalarProperty Name="MIN_S" ColumnName="MIN_S" />
+          <ScalarProperty Name="MAX_S" ColumnName="MAX_S" />
+          <ScalarProperty Name="ROQ" ColumnName="ROQ" />
+          <ScalarProperty Name="ROL" ColumnName="ROL" />
+          <ScalarProperty Name="UNIT" ColumnName="UNIT" />
+          <ScalarProperty Name="PACK" ColumnName="PACK" />
+          <ScalarProperty Name="DESC2" ColumnName="DESC2" />
+          <ScalarProperty Name="DESC1" ColumnName="DESC1" />
+          <ScalarProperty Name="ITEM" ColumnName="ITEM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USERINFOes">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.USERINFO">
+        <MappingFragment StoreEntitySet="USERINFO">
+          <ScalarProperty Name="AllowedLocations" ColumnName="AllowedLocations" />
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+          <ScalarProperty Name="DesignationCode" ColumnName="DesignationCode" />
+          <ScalarProperty Name="DepartmentCode" ColumnName="DepartmentCode" />
+          <ScalarProperty Name="RightCodes" ColumnName="RightCodes" />
+          <ScalarProperty Name="UserLevel" ColumnName="UserLevel" />
+          <ScalarProperty Name="USERCODE" ColumnName="USERCODE" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="NIC" ColumnName="NIC" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GRN_MAST">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.GRN_MAST">
+        <MappingFragment StoreEntitySet="GRN_MAST">
+          <ScalarProperty Name="DISCOUNT_AMT" ColumnName="DISCOUNT_AMT" />
+          <ScalarProperty Name="DISCOUNT" ColumnName="DISCOUNT" />
+          <ScalarProperty Name="PRINTED" ColumnName="PRINTED" />
+          <ScalarProperty Name="CANCEL_TIME" ColumnName="CANCEL_TIME" />
+          <ScalarProperty Name="CANCEL_DATE" ColumnName="CANCEL_DATE" />
+          <ScalarProperty Name="CANCEL_USERCODE" ColumnName="CANCEL_USERCODE" />
+          <ScalarProperty Name="CANCELLED" ColumnName="CANCELLED" />
+          <ScalarProperty Name="USERCODE" ColumnName="USERCODE" />
+          <ScalarProperty Name="TERMINAL_ID" ColumnName="TERMINAL_ID" />
+          <ScalarProperty Name="BRANCH_CODE" ColumnName="BRANCH_CODE" />
+          <ScalarProperty Name="VAT_CODE2" ColumnName="VAT_CODE2" />
+          <ScalarProperty Name="VAT_CODE1" ColumnName="VAT_CODE1" />
+          <ScalarProperty Name="PAY_IN_PROGRESS" ColumnName="PAY_IN_PROGRESS" />
+          <ScalarProperty Name="PAY_STATUS" ColumnName="PAY_STATUS" />
+          <ScalarProperty Name="PAY_BALANCE" ColumnName="PAY_BALANCE" />
+          <ScalarProperty Name="PAYABLE_AMOUNT" ColumnName="PAYABLE_AMOUNT" />
+          <ScalarProperty Name="DEDUCTIONS" ColumnName="DEDUCTIONS" />
+          <ScalarProperty Name="COST_AMOUNT" ColumnName="COST_AMOUNT" />
+          <ScalarProperty Name="NBT_AMOUNT" ColumnName="NBT_AMOUNT" />
+          <ScalarProperty Name="VAT_AMOUNT" ColumnName="VAT_AMOUNT" />
+          <ScalarProperty Name="TOTAL_AFTER_DISCOUNT" ColumnName="TOTAL_AFTER_DISCOUNT" />
+          <ScalarProperty Name="IS_DISCOUNT_PER" ColumnName="IS_DISCOUNT_PER" />
+          <ScalarProperty Name="TOTAL" ColumnName="TOTAL" />
+          <ScalarProperty Name="DN_NO" ColumnName="DN_NO" />
+          <ScalarProperty Name="REF" ColumnName="REF" />
+          <ScalarProperty Name="TXN_TIME" ColumnName="TXN_TIME" />
+          <ScalarProperty Name="GRN_DATE" ColumnName="GRN_DATE" />
+          <ScalarProperty Name="TXN_DATE" ColumnName="TXN_DATE" />
+          <ScalarProperty Name="SUPP_NAME" ColumnName="SUPP_NAME" />
+          <ScalarProperty Name="SUPP_CODE" ColumnName="SUPP_CODE" />
+          <ScalarProperty Name="GRN_TYPE" ColumnName="GRN_TYPE" />
+          <ScalarProperty Name="GRN_NO" ColumnName="GRN_NO" />
+          <ScalarProperty Name="LOCA" ColumnName="LOCA" />
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GRN_DETAIL">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.GRN_DETAIL">
+        <MappingFragment StoreEntitySet="GRN_DETAIL">
+          <ScalarProperty Name="DISCOUNT_AMT" ColumnName="DISCOUNT_AMT" />
+          <ScalarProperty Name="TOTAL" ColumnName="TOTAL" />
+          <ScalarProperty Name="DISCOUNT" ColumnName="DISCOUNT" />
+          <ScalarProperty Name="IS_DISCOUNT_PER" ColumnName="IS_DISCOUNT_PER" />
+          <ScalarProperty Name="LOOSE_QTY" ColumnName="LOOSE_QTY" />
+          <ScalarProperty Name="BULK_QTY" ColumnName="BULK_QTY" />
+          <ScalarProperty Name="LOOSE_SALES_PRICE" ColumnName="LOOSE_SALES_PRICE" />
+          <ScalarProperty Name="BULK_SALES_PRICE" ColumnName="BULK_SALES_PRICE" />
+          <ScalarProperty Name="LOOSE_UNIT" ColumnName="LOOSE_UNIT" />
+          <ScalarProperty Name="BULK_UNIT" ColumnName="BULK_UNIT" />
+          <ScalarProperty Name="QTY" ColumnName="QTY" />
+          <ScalarProperty Name="UNIT" ColumnName="UNIT" />
+          <ScalarProperty Name="ITEM_DESC" ColumnName="ITEM_DESC" />
+          <ScalarProperty Name="ITEM" ColumnName="ITEM" />
+          <ScalarProperty Name="ITEM_LOCA" ColumnName="ITEM_LOCA" />
+          <ScalarProperty Name="GRN_NO" ColumnName="GRN_NO" />
+          <ScalarProperty Name="LOCA" ColumnName="LOCA" />
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ITEM_MAST_003">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.ITEM_MAST_003">
+        <MappingFragment StoreEntitySet="ITEM_MAST_003">
+          <ScalarProperty Name="COST_PRICE_LOOSE" ColumnName="COST_PRICE_LOOSE" />
+          <ScalarProperty Name="COST_PRICE_BULK" ColumnName="COST_PRICE_BULK" />
+          <ScalarProperty Name="SALES_PRICE_LOOSE" ColumnName="SALES_PRICE_LOOSE" />
+          <ScalarProperty Name="SALES_PRICE_BULK" ColumnName="SALES_PRICE_BULK" />
+          <ScalarProperty Name="CATCODE_L4" ColumnName="CATCODE_L4" />
+          <ScalarProperty Name="Is_stocks_in_second__unit" ColumnName="Is_stocks_in_second _unit" />
+          <ScalarProperty Name="ITEM_UNIT0" ColumnName="ITEM_UNIT0" />
+          <ScalarProperty Name="CATCODE_L3" ColumnName="CATCODE_L3" />
+          <ScalarProperty Name="CATCODE_L2" ColumnName="CATCODE_L2" />
+          <ScalarProperty Name="CATCODE" ColumnName="CATCODE" />
+          <ScalarProperty Name="LOCA_CODE" ColumnName="LOCA_CODE" />
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+          <ScalarProperty Name="UNIT_2_RESERVED_QTY" ColumnName="UNIT_2_RESERVED_QTY" />
+          <ScalarProperty Name="UNIT_1_RESERVED_QTY" ColumnName="UNIT_1_RESERVED_QTY" />
+          <ScalarProperty Name="CHANGED" ColumnName="CHANGED" />
+          <ScalarProperty Name="ACTIVE_STAT" ColumnName="ACTIVE_STAT" />
+          <ScalarProperty Name="BACK_UNIT_2_QTY" ColumnName="BACK_UNIT_2_QTY" />
+          <ScalarProperty Name="BACK_UNIT_1_QTY" ColumnName="BACK_UNIT_1_QTY" />
+          <ScalarProperty Name="UNIT_2_QTY" ColumnName="UNIT_2_QTY" />
+          <ScalarProperty Name="UNIT_1_QTY" ColumnName="UNIT_1_QTY" />
+          <ScalarProperty Name="LAST_CHANGE_DATE" ColumnName="LAST_CHANGE_DATE" />
+          <ScalarProperty Name="IS_SERVICE_ITEM" ColumnName="IS_SERVICE_ITEM" />
+          <ScalarProperty Name="ACTUAL_COST" ColumnName="ACTUAL_COST" />
+          <ScalarProperty Name="ITEM_UNIT2" ColumnName="ITEM_UNIT2" />
+          <ScalarProperty Name="ITEM_UNIT1" ColumnName="ITEM_UNIT1" />
+          <ScalarProperty Name="WIDTH" ColumnName="WIDTH" />
+          <ScalarProperty Name="LENGTH" ColumnName="LENGTH" />
+          <ScalarProperty Name="CUT_STAT" ColumnName="CUT_STAT" />
+          <ScalarProperty Name="IS_CUTTED" ColumnName="IS_CUTTED" />
+          <ScalarProperty Name="IS_ROUND" ColumnName="IS_ROUND" />
+          <ScalarProperty Name="COST_PRICE" ColumnName="COST_PRICE" />
+          <ScalarProperty Name="CF_BAL" ColumnName="CF_BAL" />
+          <ScalarProperty Name="BF_BAL" ColumnName="BF_BAL" />
+          <ScalarProperty Name="QIH" ColumnName="QIH" />
+          <ScalarProperty Name="MIN_S" ColumnName="MIN_S" />
+          <ScalarProperty Name="MAX_S" ColumnName="MAX_S" />
+          <ScalarProperty Name="ROQ" ColumnName="ROQ" />
+          <ScalarProperty Name="ROL" ColumnName="ROL" />
+          <ScalarProperty Name="UNIT" ColumnName="UNIT" />
+          <ScalarProperty Name="PACK" ColumnName="PACK" />
+          <ScalarProperty Name="DESC2" ColumnName="DESC2" />
+          <ScalarProperty Name="DESC1" ColumnName="DESC1" />
+          <ScalarProperty Name="ITEM" ColumnName="ITEM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ITEM_MAST_004">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.ITEM_MAST_004">
+        <MappingFragment StoreEntitySet="ITEM_MAST_004">
+          <ScalarProperty Name="COST_PRICE_LOOSE" ColumnName="COST_PRICE_LOOSE" />
+          <ScalarProperty Name="COST_PRICE_BULK" ColumnName="COST_PRICE_BULK" />
+          <ScalarProperty Name="SALES_PRICE_LOOSE" ColumnName="SALES_PRICE_LOOSE" />
+          <ScalarProperty Name="SALES_PRICE_BULK" ColumnName="SALES_PRICE_BULK" />
+          <ScalarProperty Name="CATCODE_L4" ColumnName="CATCODE_L4" />
+          <ScalarProperty Name="Is_stocks_in_second__unit" ColumnName="Is_stocks_in_second _unit" />
+          <ScalarProperty Name="ITEM_UNIT0" ColumnName="ITEM_UNIT0" />
+          <ScalarProperty Name="CATCODE_L3" ColumnName="CATCODE_L3" />
+          <ScalarProperty Name="CATCODE_L2" ColumnName="CATCODE_L2" />
+          <ScalarProperty Name="CATCODE" ColumnName="CATCODE" />
+          <ScalarProperty Name="LOCA_CODE" ColumnName="LOCA_CODE" />
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+          <ScalarProperty Name="UNIT_2_RESERVED_QTY" ColumnName="UNIT_2_RESERVED_QTY" />
+          <ScalarProperty Name="UNIT_1_RESERVED_QTY" ColumnName="UNIT_1_RESERVED_QTY" />
+          <ScalarProperty Name="CHANGED" ColumnName="CHANGED" />
+          <ScalarProperty Name="ACTIVE_STAT" ColumnName="ACTIVE_STAT" />
+          <ScalarProperty Name="BACK_UNIT_2_QTY" ColumnName="BACK_UNIT_2_QTY" />
+          <ScalarProperty Name="BACK_UNIT_1_QTY" ColumnName="BACK_UNIT_1_QTY" />
+          <ScalarProperty Name="UNIT_2_QTY" ColumnName="UNIT_2_QTY" />
+          <ScalarProperty Name="UNIT_1_QTY" ColumnName="UNIT_1_QTY" />
+          <ScalarProperty Name="LAST_CHANGE_DATE" ColumnName="LAST_CHANGE_DATE" />
+          <ScalarProperty Name="IS_SERVICE_ITEM" ColumnName="IS_SERVICE_ITEM" />
+          <ScalarProperty Name="ACTUAL_COST" ColumnName="ACTUAL_COST" />
+          <ScalarProperty Name="ITEM_UNIT2" ColumnName="ITEM_UNIT2" />
+          <ScalarProperty Name="ITEM_UNIT1" ColumnName="ITEM_UNIT1" />
+          <ScalarProperty Name="WIDTH" ColumnName="WIDTH" />
+          <ScalarProperty Name="LENGTH" ColumnName="LENGTH" />
+          <ScalarProperty Name="CUT_STAT" ColumnName="CUT_STAT" />
+          <ScalarProperty Name="IS_CUTTED" ColumnName="IS_CUTTED" />
+          <ScalarProperty Name="IS_ROUND" ColumnName="IS_ROUND" />
+          <ScalarProperty Name="COST_PRICE" ColumnName="COST_PRICE" />
+          <ScalarProperty Name="CF_BAL" ColumnName="CF_BAL" />
+          <ScalarProperty Name="BF_BAL" ColumnName="BF_BAL" />
+          <ScalarProperty Name="QIH" ColumnName="QIH" />
+          <ScalarProperty Name="MIN_S" ColumnName="MIN_S" />
+          <ScalarProperty Name="MAX_S" ColumnName="MAX_S" />
+          <ScalarProperty Name="ROQ" ColumnName="ROQ" />
+          <ScalarProperty Name="ROL" ColumnName="ROL" />
+          <ScalarProperty Name="UNIT" ColumnName="UNIT" />
+          <ScalarProperty Name="PACK" ColumnName="PACK" />
+          <ScalarProperty Name="DESC2" ColumnName="DESC2" />
+          <ScalarProperty Name="DESC1" ColumnName="DESC1" />
+          <ScalarProperty Name="ITEM" ColumnName="ITEM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STOCKs">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.STOCK">
+        <MappingFragment StoreEntitySet="STOCK">
+          <ScalarProperty Name="SEQ_NO_FULL" ColumnName="SEQ_NO_FULL" />
+          <ScalarProperty Name="IS_MONTH_END" ColumnName="IS_MONTH_END" />
+          <ScalarProperty Name="STOCK_TYPE" ColumnName="STOCK_TYPE" />
+          <ScalarProperty Name="DOC_BAL_LOOSE_QTY" ColumnName="DOC_BAL_LOOSE_QTY" />
+          <ScalarProperty Name="DOC_BAL_BULK_QTY" ColumnName="DOC_BAL_BULK_QTY" />
+          <ScalarProperty Name="LOOSE_QTY" ColumnName="LOOSE_QTY" />
+          <ScalarProperty Name="BULK_QTY" ColumnName="BULK_QTY" />
+          <ScalarProperty Name="LOOSE_UNIT" ColumnName="LOOSE_UNIT" />
+          <ScalarProperty Name="BULK_UNIT" ColumnName="BULK_UNIT" />
+          <ScalarProperty Name="COST_PRICE" ColumnName="COST_PRICE" />
+          <ScalarProperty Name="PURCHASE_PRICE" ColumnName="PURCHASE_PRICE" />
+          <ScalarProperty Name="REFNO" ColumnName="REFNO" />
+          <ScalarProperty Name="SEQ_NO" ColumnName="SEQ_NO" />
+          <ScalarProperty Name="TXN_DATE" ColumnName="TXN_DATE" />
+          <ScalarProperty Name="LOCA_TO_DESC" ColumnName="LOCA_TO_DESC" />
+          <ScalarProperty Name="UNIT" ColumnName="UNIT" />
+          <ScalarProperty Name="LOCA_TO" ColumnName="LOCA_TO" />
+          <ScalarProperty Name="CSH_CRD" ColumnName="CSH_CRD" />
+          <ScalarProperty Name="DOC_NO" ColumnName="DOC_NO" />
+          <ScalarProperty Name="TXN_TYPE" ColumnName="TXN_TYPE" />
+          <ScalarProperty Name="ITEM" ColumnName="ITEM" />
+          <ScalarProperty Name="LOCA" ColumnName="LOCA" />
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TRANS_DETAIL">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.TRANS_DETAIL">
+        <MappingFragment StoreEntitySet="TRANS_DETAIL">
+          <ScalarProperty Name="DISCOUNT_AMT" ColumnName="DISCOUNT_AMT" />
+          <ScalarProperty Name="TOTAL" ColumnName="TOTAL" />
+          <ScalarProperty Name="DISCOUNT" ColumnName="DISCOUNT" />
+          <ScalarProperty Name="IS_DISCOUNT_PER" ColumnName="IS_DISCOUNT_PER" />
+          <ScalarProperty Name="LOOSE_QTY" ColumnName="LOOSE_QTY" />
+          <ScalarProperty Name="BULK_QTY" ColumnName="BULK_QTY" />
+          <ScalarProperty Name="LOOSE_SALES_PRICE" ColumnName="LOOSE_SALES_PRICE" />
+          <ScalarProperty Name="BULK_SALES_PRICE" ColumnName="BULK_SALES_PRICE" />
+          <ScalarProperty Name="LOOSE_UNIT" ColumnName="LOOSE_UNIT" />
+          <ScalarProperty Name="BULK_UNIT" ColumnName="BULK_UNIT" />
+          <ScalarProperty Name="QTY" ColumnName="QTY" />
+          <ScalarProperty Name="UNIT" ColumnName="UNIT" />
+          <ScalarProperty Name="ITEM_DESC" ColumnName="ITEM_DESC" />
+          <ScalarProperty Name="ITEM" ColumnName="ITEM" />
+          <ScalarProperty Name="TRANS_DATE" ColumnName="TRANS_DATE" />
+          <ScalarProperty Name="ITEM_LOCA" ColumnName="ITEM_LOCA" />
+          <ScalarProperty Name="TRANS_NO" ColumnName="TRANS_NO" />
+          <ScalarProperty Name="LOCA_FROM" ColumnName="LOCA_FROM" />
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TRANS_MAST">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.TRANS_MAST">
+        <MappingFragment StoreEntitySet="TRANS_MAST">
+          <ScalarProperty Name="ACCEPT_TERMINAL_ID" ColumnName="ACCEPT_TERMINAL_ID" />
+          <ScalarProperty Name="ACCEPT_BRANCH_CODE" ColumnName="ACCEPT_BRANCH_CODE" />
+          <ScalarProperty Name="ACCEPT_TIME" ColumnName="ACCEPT_TIME" />
+          <ScalarProperty Name="ACCEPT_DATE" ColumnName="ACCEPT_DATE" />
+          <ScalarProperty Name="ACCEPT_USERCODE" ColumnName="ACCEPT_USERCODE" />
+          <ScalarProperty Name="ACCEPTED" ColumnName="ACCEPTED" />
+          <ScalarProperty Name="DISCOUNT_AMT" ColumnName="DISCOUNT_AMT" />
+          <ScalarProperty Name="DISCOUNT" ColumnName="DISCOUNT" />
+          <ScalarProperty Name="PRINTED" ColumnName="PRINTED" />
+          <ScalarProperty Name="CANCEL_TIME" ColumnName="CANCEL_TIME" />
+          <ScalarProperty Name="CANCEL_DATE" ColumnName="CANCEL_DATE" />
+          <ScalarProperty Name="CANCEL_USERCODE" ColumnName="CANCEL_USERCODE" />
+          <ScalarProperty Name="CANCELLED" ColumnName="CANCELLED" />
+          <ScalarProperty Name="USERCODE" ColumnName="USERCODE" />
+          <ScalarProperty Name="TERMINAL_ID" ColumnName="TERMINAL_ID" />
+          <ScalarProperty Name="BRANCH_CODE" ColumnName="BRANCH_CODE" />
+          <ScalarProperty Name="VAT_CODE2" ColumnName="VAT_CODE2" />
+          <ScalarProperty Name="VAT_CODE1" ColumnName="VAT_CODE1" />
+          <ScalarProperty Name="PAY_IN_PROGRESS" ColumnName="PAY_IN_PROGRESS" />
+          <ScalarProperty Name="PAY_STATUS" ColumnName="PAY_STATUS" />
+          <ScalarProperty Name="PAY_BALANCE" ColumnName="PAY_BALANCE" />
+          <ScalarProperty Name="PAYABLE_AMOUNT" ColumnName="PAYABLE_AMOUNT" />
+          <ScalarProperty Name="COST_AMOUNT" ColumnName="COST_AMOUNT" />
+          <ScalarProperty Name="NBT_AMOUNT" ColumnName="NBT_AMOUNT" />
+          <ScalarProperty Name="VAT_AMOUNT" ColumnName="VAT_AMOUNT" />
+          <ScalarProperty Name="TOTAL_AFTER_DISCOUNT" ColumnName="TOTAL_AFTER_DISCOUNT" />
+          <ScalarProperty Name="IS_DISCOUNT_PER" ColumnName="IS_DISCOUNT_PER" />
+          <ScalarProperty Name="TOTAL" ColumnName="TOTAL" />
+          <ScalarProperty Name="TXN_TIME" ColumnName="TXN_TIME" />
+          <ScalarProperty Name="TRANS_DATE" ColumnName="TRANS_DATE" />
+          <ScalarProperty Name="TXN_DATE" ColumnName="TXN_DATE" />
+          <ScalarProperty Name="SEQREF_03" ColumnName="SEQREF_03" />
+          <ScalarProperty Name="SEQREF_02" ColumnName="SEQREF_02" />
+          <ScalarProperty Name="SEQREF_01" ColumnName="SEQREF_01" />
+          <ScalarProperty Name="SEQNO_03" ColumnName="SEQNO_03" />
+          <ScalarProperty Name="SEQNO_02" ColumnName="SEQNO_02" />
+          <ScalarProperty Name="SEQNO_01" ColumnName="SEQNO_01" />
+          <ScalarProperty Name="NOTE02" ColumnName="NOTE02" />
+          <ScalarProperty Name="NOTE01" ColumnName="NOTE01" />
+          <ScalarProperty Name="TRANS_NO" ColumnName="TRANS_NO" />
+          <ScalarProperty Name="LOCA_TO" ColumnName="LOCA_TO" />
+          <ScalarProperty Name="LOCA_FROM" ColumnName="LOCA_FROM" />
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CUSTOMER_LEDGER">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.CUSTOMER_LEDGER">
+        <MappingFragment StoreEntitySet="CUSTOMER_LEDGER">
+          <ScalarProperty Name="SETTLED_USER" ColumnName="SETTLED_USER" />
+          <ScalarProperty Name="SETTLED_DATE" ColumnName="SETTLED_DATE" />
+          <ScalarProperty Name="SETTLED_RECEIPT_NO" ColumnName="SETTLED_RECEIPT_NO" />
+          <ScalarProperty Name="PAYABLE_BALANCE" ColumnName="PAYABLE_BALANCE" />
+          <ScalarProperty Name="PAYABLE_AMT" ColumnName="PAYABLE_AMT" />
+          <ScalarProperty Name="COST_AMT" ColumnName="COST_AMT" />
+          <ScalarProperty Name="NBT_AMT" ColumnName="NBT_AMT" />
+          <ScalarProperty Name="VAT_AMT" ColumnName="VAT_AMT" />
+          <ScalarProperty Name="TXN_TOTAL" ColumnName="TXN_TOTAL" />
+          <ScalarProperty Name="REFNO" ColumnName="REFNO" />
+          <ScalarProperty Name="SEQ_NO" ColumnName="SEQ_NO" />
+          <ScalarProperty Name="TXN_DATE" ColumnName="TXN_DATE" />
+          <ScalarProperty Name="LOCA" ColumnName="LOCA" />
+          <ScalarProperty Name="CSH_CRD" ColumnName="CSH_CRD" />
+          <ScalarProperty Name="DOC_NO" ColumnName="DOC_NO" />
+          <ScalarProperty Name="TXN_TYPE" ColumnName="TXN_TYPE" />
+          <ScalarProperty Name="CUST_CODE" ColumnName="CUST_CODE" />
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ACC_CAT_L1">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.ACC_CAT_L1">
+        <MappingFragment StoreEntitySet="ACC_CAT_L1">
+          <ScalarProperty Name="CHANGED_USERCODE" ColumnName="CHANGED_USERCODE" />
+          <ScalarProperty Name="CHANGED_DATE" ColumnName="CHANGED_DATE" />
+          <ScalarProperty Name="CHANGED" ColumnName="CHANGED" />
+          <ScalarProperty Name="REMOVE" ColumnName="REMOVE" />
+          <ScalarProperty Name="USERCODE" ColumnName="USERCODE" />
+          <ScalarProperty Name="ACCTYPE" ColumnName="ACCTYPE" />
+          <ScalarProperty Name="CAT_DESC" ColumnName="CAT_DESC" />
+          <ScalarProperty Name="CAT_L1" ColumnName="CAT_L1" />
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ACC_CAT_L2">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.ACC_CAT_L2">
+        <MappingFragment StoreEntitySet="ACC_CAT_L2">
+          <ScalarProperty Name="CHANGED_USERCODE" ColumnName="CHANGED_USERCODE" />
+          <ScalarProperty Name="CHANGED_DATE" ColumnName="CHANGED_DATE" />
+          <ScalarProperty Name="CHANGED" ColumnName="CHANGED" />
+          <ScalarProperty Name="REMOVE" ColumnName="REMOVE" />
+          <ScalarProperty Name="USERCODE" ColumnName="USERCODE" />
+          <ScalarProperty Name="CAT_DESC" ColumnName="CAT_DESC" />
+          <ScalarProperty Name="CAT_L2" ColumnName="CAT_L2" />
+          <ScalarProperty Name="CAT_L1" ColumnName="CAT_L1" />
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ACC_CAT_L3">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.ACC_CAT_L3">
+        <MappingFragment StoreEntitySet="ACC_CAT_L3">
+          <ScalarProperty Name="CHANGED_USERCODE" ColumnName="CHANGED_USERCODE" />
+          <ScalarProperty Name="CHANGED_DATE" ColumnName="CHANGED_DATE" />
+          <ScalarProperty Name="CHANGED" ColumnName="CHANGED" />
+          <ScalarProperty Name="REMOVE" ColumnName="REMOVE" />
+          <ScalarProperty Name="USERCODE" ColumnName="USERCODE" />
+          <ScalarProperty Name="CAT_DESC" ColumnName="CAT_DESC" />
+          <ScalarProperty Name="CAT_L3" ColumnName="CAT_L3" />
+          <ScalarProperty Name="CAT_L2" ColumnName="CAT_L2" />
+          <ScalarProperty Name="CAT_L1" ColumnName="CAT_L1" />
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ACC_CAT_L4">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.ACC_CAT_L4">
+        <MappingFragment StoreEntitySet="ACC_CAT_L4">
+          <ScalarProperty Name="CHANGED_USERCODE" ColumnName="CHANGED_USERCODE" />
+          <ScalarProperty Name="CHANGED_DATE" ColumnName="CHANGED_DATE" />
+          <ScalarProperty Name="CHANGED" ColumnName="CHANGED" />
+          <ScalarProperty Name="REMOVE" ColumnName="REMOVE" />
+          <ScalarProperty Name="USERCODE" ColumnName="USERCODE" />
+          <ScalarProperty Name="CAT_DESC" ColumnName="CAT_DESC" />
+          <ScalarProperty Name="CAT_L4" ColumnName="CAT_L4" />
+          <ScalarProperty Name="CAT_L3" ColumnName="CAT_L3" />
+          <ScalarProperty Name="CAT_L2" ColumnName="CAT_L2" />
+          <ScalarProperty Name="CAT_L1" ColumnName="CAT_L1" />
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ACC_CAT_L5">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.ACC_CAT_L5">
+        <MappingFragment StoreEntitySet="ACC_CAT_L5">
+          <ScalarProperty Name="CHANGED_USERCODE" ColumnName="CHANGED_USERCODE" />
+          <ScalarProperty Name="CHANGED_DATE" ColumnName="CHANGED_DATE" />
+          <ScalarProperty Name="CHANGED" ColumnName="CHANGED" />
+          <ScalarProperty Name="REMOVE" ColumnName="REMOVE" />
+          <ScalarProperty Name="TO_RANGE" ColumnName="TO_RANGE" />
+          <ScalarProperty Name="FROM_RANGE" ColumnName="FROM_RANGE" />
+          <ScalarProperty Name="USERCODE" ColumnName="USERCODE" />
+          <ScalarProperty Name="CAT_DESC" ColumnName="CAT_DESC" />
+          <ScalarProperty Name="CAT_L5" ColumnName="CAT_L5" />
+          <ScalarProperty Name="CAT_L4" ColumnName="CAT_L4" />
+          <ScalarProperty Name="CAT_L3" ColumnName="CAT_L3" />
+          <ScalarProperty Name="CAT_L2" ColumnName="CAT_L2" />
+          <ScalarProperty Name="CAT_L1" ColumnName="CAT_L1" />
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LOCA_MAST">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.LOCA_MAST">
+        <MappingFragment StoreEntitySet="LOCA_MAST">
+          <ScalarProperty Name="ADJ_NO" ColumnName="ADJ_NO" />
+          <ScalarProperty Name="TRANSNO" ColumnName="TRANSNO" />
+          <ScalarProperty Name="CUTNO" ColumnName="CUTNO" />
+          <ScalarProperty Name="GRN_NO" ColumnName="GRN_NO" />
+          <ScalarProperty Name="CREDIT_INV_NO" ColumnName="CREDIT_INV_NO" />
+          <ScalarProperty Name="CASH_INV_NO" ColumnName="CASH_INV_NO" />
+          <ScalarProperty Name="INV_NO" ColumnName="INV_NO" />
+          <ScalarProperty Name="PHY_NO" ColumnName="PHY_NO" />
+          <ScalarProperty Name="LOCA_LABEL" ColumnName="LOCA_LABEL" />
+          <ScalarProperty Name="LOCA_DESCRIPT" ColumnName="LOCA_DESCRIPT" />
+          <ScalarProperty Name="LOCA_CODE" ColumnName="LOCA_CODE" />
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ITEM_CUTLIST">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.ITEM_CUTLIST">
+        <MappingFragment StoreEntitySet="ITEM_CUTLIST">
+          <ScalarProperty Name="CUT_ITEM" ColumnName="CUT_ITEM" />
+          <ScalarProperty Name="ITEM" ColumnName="ITEM" />
+          <ScalarProperty Name="LOCA_CODE" ColumnName="LOCA_CODE" />
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

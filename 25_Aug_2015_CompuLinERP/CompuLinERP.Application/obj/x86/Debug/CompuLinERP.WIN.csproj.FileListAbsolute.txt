@@ -1,0 +1,156 @@
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\bin\Debug\CompuLinERP.WIN.exe.config
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\bin\Debug\CompuLinERP.WIN.exe.manifest
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\bin\Debug\CompuLinERP.WIN.application
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\bin\Debug\CompuLinERP.WIN.exe
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\bin\Debug\CompuLinERP.WIN.pdb
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.CategoryDetails.resources
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.ChangePWD.resources
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.ChartOfAccounts.resources
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.DisplayPrintScreen.resources
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.GRN.resources
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinINV.WIN.InvoiceReportDisplay.resources
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.JournalEntries.resources
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.StockAdjustments.resources
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.Receipts.resources
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.ReportsList.resources
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.SalesPrice.resources
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinINV.WIN.CrystalreportViewer.resources
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.CustomerDetails.resources
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinINV.WIN.DocumentDetails.resources
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.HelpScreen.resources
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.Invoice.resources
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.ItemDetails.resources
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.LocationDetails.resources
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinINV.WIN.Login.resources
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinINV.WIN.MainForm.resources
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.CostPrice.resources
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.Properties.Resources.resources
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.SupplierDetails.resources
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.TransferNote.resources
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.UnitDetails.resources
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinINV.WIN.UserManagement.resources
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.csproj.GenerateResource.Cache
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.exe.manifest
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.application
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.exe
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.pdb
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.PhysicalStock.resources
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.CutItem.resources
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.AccountDetails.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\bin\Debug\CompuLinERP.WIN.exe.config
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.exe
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.pdb
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.AccountDetails.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.CategoryDetails.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.ChangePWD.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.ChartOfAccounts.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.CutItem.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.DisplayPrintScreen.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.GRN.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinINV.WIN.InvoiceReportDisplay.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.JournalEntries.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.PhysicalStock.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.Receipts.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.ReportsList.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.SalesPrice.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinINV.WIN.CrystalreportViewer.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.CustomerDetails.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinINV.WIN.DocumentDetails.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.HelpScreen.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.Invoice.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.ItemDetails.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.LocationDetails.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinINV.WIN.Login.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinINV.WIN.MainForm.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.CostPrice.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.Properties.Resources.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.StockAdjustments.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.SupplierDetails.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.TransferNote.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.UnitDetails.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinINV.WIN.UserManagement.resources
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.csproj.GenerateResource.Cache
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\bin\Debug\CompuLinERP.WIN.exe.manifest
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\bin\Debug\CompuLinERP.WIN.application
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\bin\Debug\CompuLinERP.WIN.exe
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\bin\Debug\CompuLinERP.WIN.pdb
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\bin\Debug\CrystalDecisions.ReportSource.dll
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\bin\Debug\CrystalDecisions.Shared.dll
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\bin\Debug\CrystalDecisions.Windows.Forms.dll
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.exe.manifest
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.application
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.csprojResolveAssemblyReference.cache
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\bin\Debug\CompuLinERP.WIN.exe.config
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.exe
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.pdb
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\bin\Debug\CompuLinERP.WIN.exe.manifest
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\bin\Debug\CompuLinERP.WIN.application
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\bin\Debug\CompuLinERP.WIN.exe
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\bin\Debug\CompuLinERP.WIN.pdb
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\bin\Debug\CrystalDecisions.ReportSource.dll
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\bin\Debug\CrystalDecisions.Shared.dll
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\bin\Debug\CrystalDecisions.Windows.Forms.dll
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.csprojResolveAssemblyReference.cache
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.CategoryDetails.resources
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.ChartOfAccounts.resources
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.CutItem.resources
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.GRN.resources
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.JournalEntries.resources
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.Receipts.resources
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.SalesPrice.resources
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.CustomerDetails.resources
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.HelpScreen.resources
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.Invoice.resources
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.ItemDetails.resources
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.LocationDetails.resources
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinINV.WIN.Login.resources
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinINV.WIN.MainForm.resources
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.CostPrice.resources
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.Properties.Resources.resources
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.StockAdjustments.resources
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.SupplierDetails.resources
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.TransferNote.resources
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.UnitDetails.resources
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinINV.WIN.UserManagement.resources
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.csproj.GenerateResource.Cache
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.exe.manifest
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.application
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\bin\Debug\CompuLinERP.WIN.exe.config
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\bin\Debug\CompuLinERP.WIN.exe.manifest
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\bin\Debug\CompuLinERP.WIN.application
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\bin\Debug\CompuLinERP.WIN.exe
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\bin\Debug\CompuLinERP.WIN.pdb
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\bin\Debug\CrystalDecisions.ReportSource.dll
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\bin\Debug\CrystalDecisions.Shared.dll
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\bin\Debug\CrystalDecisions.Windows.Forms.dll
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.CategoryDetails.resources
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.ChartOfAccounts.resources
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.CutItem.resources
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.GRN.resources
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.JournalEntries.resources
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.LocationCustomize.resources
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.Receipts.resources
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.SalesPrice.resources
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.CustomerDetails.resources
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.HelpScreen.resources
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.Invoice.resources
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.ItemDetails.resources
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.LocationDetails.resources
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinINV.WIN.Login.resources
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinINV.WIN.MainForm.resources
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.CostPrice.resources
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.Properties.Resources.resources
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.StockAdjustments.resources
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.SupplierDetails.resources
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.TransferNote.resources
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.UnitDetails.resources
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinINV.WIN.UserManagement.resources
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.csproj.GenerateResource.Cache
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.exe.manifest
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.application
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.exe
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.pdb
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.csprojResolveAssemblyReference.cache

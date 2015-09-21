@@ -1,0 +1,75 @@
+F:\Check\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.dll.config
+F:\Check\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.dll
+F:\Check\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.pdb
+F:\Check\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\EntityFramework.dll
+F:\Check\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\EntityFramework.xml
+F:\Check\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.API\CompuLin.API\obj\Debug\CompuLinERP.API.dll
+F:\Check\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.API\CompuLin.API\obj\Debug\CompuLinERP.API.pdb
+F:\Check\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.API\CompuLin.API\obj\Debug\CompuLinERP.API.csprojResolveAssemblyReference.cache
+E:\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.dll.config
+E:\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.dll
+E:\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.pdb
+E:\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\EntityFramework.dll
+E:\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\EntityFramework.xml
+E:\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.API\CompuLin.API\obj\Debug\CompuLinERP.API.dll
+E:\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.API\CompuLin.API\obj\Debug\CompuLinERP.API.pdb
+G:\Ayani\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.dll.config
+G:\Ayani\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.dll
+G:\Ayani\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.pdb
+G:\Ayani\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\EntityFramework.dll
+G:\Ayani\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\EntityFramework.xml
+G:\Ayani\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.API\CompuLin.API\obj\Debug\CompuLinERP.API.dll
+G:\Ayani\ECDataAndLearnings\C#\CompuLinERP\CompuLinERP.API\CompuLin.API\obj\Debug\CompuLinERP.API.pdb
+E:\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.dll.config
+E:\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.dll
+E:\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.pdb
+E:\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\EntityFramework.dll
+E:\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\EntityFramework.xml
+E:\CompuLinERP\CompuLinERP.API\CompuLin.API\obj\Debug\CompuLinERP.API.dll
+E:\CompuLinERP\CompuLinERP.API\CompuLin.API\obj\Debug\CompuLinERP.API.pdb
+E:\ECDataAndLearnings\C#\CompuLinERP_From_Anura\CompuLinERP\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.dll.config
+E:\ECDataAndLearnings\C#\CompuLinERP_From_Anura\CompuLinERP\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.dll
+E:\ECDataAndLearnings\C#\CompuLinERP_From_Anura\CompuLinERP\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.pdb
+E:\ECDataAndLearnings\C#\CompuLinERP_From_Anura\CompuLinERP\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\EntityFramework.dll
+E:\ECDataAndLearnings\C#\CompuLinERP_From_Anura\CompuLinERP\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\EntityFramework.xml
+E:\ECDataAndLearnings\C#\CompuLinERP_From_Anura\CompuLinERP\CompuLinERP\CompuLinERP.API\CompuLin.API\obj\Debug\CompuLinERP.API.dll
+E:\ECDataAndLearnings\C#\CompuLinERP_From_Anura\CompuLinERP\CompuLinERP\CompuLinERP.API\CompuLin.API\obj\Debug\CompuLinERP.API.pdb
+D:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.dll.config
+D:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.dll
+D:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.pdb
+D:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\EntityFramework.dll
+D:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\EntityFramework.xml
+D:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.API\CompuLin.API\obj\Debug\CompuLinERP.API.dll
+D:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.API\CompuLin.API\obj\Debug\CompuLinERP.API.pdb
+D:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.API\CompuLin.API\obj\Debug\CompuLinERP.API.csprojResolveAssemblyReference.cache
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.dll.config
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.dll
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.pdb
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\EntityFramework.dll
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\EntityFramework.xml
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.API\CompuLin.API\obj\Debug\CompuLinERP.API.dll
+E:\WorkDir\CompuLIn\CompuLinERP\CompuLinERP\CompuLinERP.API\CompuLin.API\obj\Debug\CompuLinERP.API.pdb
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.dll.config
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.dll
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.pdb
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\EntityFramework.dll
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\EntityFramework.xml
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\obj\Debug\CompuLinERP.API.dll
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\obj\Debug\CompuLinERP.API.pdb
+F:\Projects\CompuLinERP Project\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\obj\Debug\CompuLinERP.API.csprojResolveAssemblyReference.cache
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.dll.config
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.dll
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.pdb
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\EntityFramework.dll
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\EntityFramework.xml
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\obj\Debug\CompuLinERP.API.csprojResolveAssemblyReference.cache
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\obj\Debug\CompuLinERP.API.dll
+F:\Company\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\obj\Debug\CompuLinERP.API.pdb
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.dll.config
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.dll
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.pdb
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\EntityFramework.dll
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\EntityFramework.xml
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\obj\Debug\CompuLinERP.API.csprojResolveAssemblyReference.cache
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\obj\Debug\CompuLinERP.API.dll
+F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\obj\Debug\CompuLinERP.API.pdb

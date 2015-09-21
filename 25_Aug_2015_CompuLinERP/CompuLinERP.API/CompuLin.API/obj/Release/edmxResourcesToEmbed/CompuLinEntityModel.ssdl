@@ -1,0 +1,988 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CompuLinERP.API.CompuLinEntityModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ACC_CAT_L1">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="CAT_L1" />
+    </Key>
+    <Property Name="COMPCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CAT_L1" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CAT_DESC" Type="varchar(max)" Nullable="false" />
+    <Property Name="ACCTYPE" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="USERCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="REMOVE" Type="int" Nullable="false" />
+    <Property Name="CHANGED" Type="int" Nullable="false" />
+    <Property Name="CHANGED_DATE" Type="smalldatetime" Nullable="false" />
+    <Property Name="CHANGED_USERCODE" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ACC_CAT_L2">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="CAT_L1" />
+      <PropertyRef Name="CAT_L2" />
+    </Key>
+    <Property Name="COMPCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CAT_L1" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CAT_L2" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CAT_DESC" Type="varchar(max)" Nullable="false" />
+    <Property Name="USERCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="REMOVE" Type="int" Nullable="false" />
+    <Property Name="CHANGED" Type="int" Nullable="false" />
+    <Property Name="CHANGED_DATE" Type="smalldatetime" Nullable="false" />
+    <Property Name="CHANGED_USERCODE" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ACC_CAT_L3">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="CAT_L1" />
+      <PropertyRef Name="CAT_L2" />
+      <PropertyRef Name="CAT_L3" />
+    </Key>
+    <Property Name="COMPCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CAT_L1" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CAT_L2" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CAT_L3" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CAT_DESC" Type="varchar(max)" Nullable="false" />
+    <Property Name="USERCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="REMOVE" Type="int" Nullable="false" />
+    <Property Name="CHANGED" Type="int" Nullable="false" />
+    <Property Name="CHANGED_DATE" Type="smalldatetime" Nullable="false" />
+    <Property Name="CHANGED_USERCODE" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ACC_CAT_L4">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="CAT_L1" />
+      <PropertyRef Name="CAT_L2" />
+      <PropertyRef Name="CAT_L3" />
+      <PropertyRef Name="CAT_L4" />
+    </Key>
+    <Property Name="COMPCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CAT_L1" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CAT_L2" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CAT_L3" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CAT_L4" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CAT_DESC" Type="varchar(max)" Nullable="false" />
+    <Property Name="USERCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="REMOVE" Type="int" Nullable="false" />
+    <Property Name="CHANGED" Type="int" Nullable="false" />
+    <Property Name="CHANGED_DATE" Type="smalldatetime" Nullable="false" />
+    <Property Name="CHANGED_USERCODE" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ACC_CAT_L5">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="CAT_L1" />
+      <PropertyRef Name="CAT_L2" />
+      <PropertyRef Name="CAT_L3" />
+      <PropertyRef Name="CAT_L4" />
+      <PropertyRef Name="CAT_L5" />
+    </Key>
+    <Property Name="COMPCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CAT_L1" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CAT_L2" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CAT_L3" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CAT_L4" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CAT_L5" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CAT_DESC" Type="varchar(max)" Nullable="false" />
+    <Property Name="USERCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="FROM_RANGE" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="TO_RANGE" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="REMOVE" Type="int" Nullable="false" />
+    <Property Name="CHANGED" Type="int" Nullable="false" />
+    <Property Name="CHANGED_DATE" Type="smalldatetime" Nullable="false" />
+    <Property Name="CHANGED_USERCODE" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_L2">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="CATCODE" />
+      <PropertyRef Name="CATCODE_L2" />
+    </Key>
+    <Property Name="COMPCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CATCODE" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CATCODE_L2" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CAT_DESC" Type="varchar(max)" Nullable="false" />
+    <Property Name="USERCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CHANGED" Type="int" Nullable="false" />
+    <Property Name="CHANGEDDATE" Type="smalldatetime" Nullable="false" />
+    <Property Name="REMOVE" Type="int" Nullable="false" />
+    <Property Name="PURCH_GLCODE" Type="varchar" MaxLength="6" />
+    <Property Name="GLCODE" Type="varchar" MaxLength="6" />
+  </EntityType>
+  <EntityType Name="CAT_L3">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="CATCODE" />
+      <PropertyRef Name="CATCODE_L2" />
+      <PropertyRef Name="CATCODE_L3" />
+    </Key>
+    <Property Name="COMPCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CATCODE" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CATCODE_L2" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CATCODE_L3" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CAT_DESC" Type="varchar(max)" Nullable="false" />
+    <Property Name="USERCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CHANGED" Type="int" Nullable="false" />
+    <Property Name="CHANGEDDATE" Type="smalldatetime" Nullable="false" />
+    <Property Name="REMOVE" Type="int" />
+    <Property Name="GLCODE" Type="varchar" MaxLength="6" />
+    <Property Name="PURCH_GLCODE" Type="varchar" MaxLength="6" />
+  </EntityType>
+  <EntityType Name="CAT_L4">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="CATCODE" />
+      <PropertyRef Name="CATCODE_L2" />
+      <PropertyRef Name="CATCODE_L3" />
+      <PropertyRef Name="CATCODE_L4" />
+    </Key>
+    <Property Name="COMPCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CATCODE" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CATCODE_L2" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CATCODE_L3" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CATCODE_L4" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CAT_DESC" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="USERCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CHANGED" Type="int" />
+    <Property Name="CHANGEDDATE" Type="datetime" />
+    <Property Name="GLCODE" Type="varchar" MaxLength="6" />
+    <Property Name="PURCH_GLCODE" Type="varchar" MaxLength="6" />
+    <Property Name="REMOVE" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CAT_MAST">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="CAT_CODE" />
+    </Key>
+    <Property Name="COMPCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CAT_CODE" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CAT_DESC" Type="varchar(max)" Nullable="false" />
+    <Property Name="USERCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="GLCODE" Type="varchar" MaxLength="50" />
+    <Property Name="PURCH_GLCODE" Type="varchar" MaxLength="50" />
+    <Property Name="REMOVE" Type="int" Nullable="false" />
+    <Property Name="CHANGED" Type="int" Nullable="false" />
+    <Property Name="CHANGEDDATE" Type="smalldatetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CUST_MAST">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="CUST_CODE" />
+    </Key>
+    <Property Name="COMPCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CUST_CODE" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="CUST_NAME" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="CUST_ADDRESS1" Type="varchar(max)" Nullable="false" />
+    <Property Name="CUST_ADDRESS2" Type="varchar(max)" Nullable="false" />
+    <Property Name="CUST_PHONE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CUST_EMAIL" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CUST_VATNO" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="USERCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CREDIT_PERIOD" Type="real" Nullable="false" />
+    <Property Name="CREDIT_LIMIT" Type="real" Nullable="false" />
+    <Property Name="GLCODE" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="AR_OPBAL" Type="real" />
+    <Property Name="AR_OPBAL_BALANCE" Type="real" />
+    <Property Name="CUST_ADDRESS3" Type="varchar" MaxLength="200" />
+    <Property Name="CUST_CONTACT_PERSON" Type="varchar" MaxLength="200" />
+    <Property Name="CUST_FAX" Type="varchar" MaxLength="200" />
+    <Property Name="ISVATEXCEMPTED" Type="int" />
+    <Property Name="OLD_GLCODE" Type="varchar" MaxLength="30" />
+    <Property Name="CUST_SVATNO" Type="varchar" MaxLength="50" />
+    <Property Name="REFNO" Type="varchar" MaxLength="50" />
+    <Property Name="AUDIT_MEMO" Type="varchar(max)" />
+    <Property Name="AUDIT_DATE" Type="date" />
+    <Property Name="IS_AUDITED" Type="int" />
+    <Property Name="CUST_TYPE" Type="nvarchar" MaxLength="5" />
+    <Property Name="CREDIT_BALANCE" Type="float" />
+  </EntityType>
+  <EntityType Name="CUSTOMER_LEDGER">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="CUST_CODE" />
+      <PropertyRef Name="TXN_TYPE" />
+      <PropertyRef Name="DOC_NO" />
+      <PropertyRef Name="CSH_CRD" />
+      <PropertyRef Name="LOCA" />
+    </Key>
+    <Property Name="COMPCODE" Type="nvarchar" MaxLength="6" Nullable="false" />
+    <Property Name="CUST_CODE" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="TXN_TYPE" Type="nvarchar" MaxLength="6" Nullable="false" />
+    <Property Name="DOC_NO" Type="nvarchar" MaxLength="16" Nullable="false" />
+    <Property Name="CSH_CRD" Type="nvarchar" MaxLength="4" Nullable="false" />
+    <Property Name="LOCA" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TXN_DATE" Type="datetime" Nullable="false" />
+    <Property Name="SEQ_NO" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="REFNO" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TXN_TOTAL" Type="money" Nullable="false" />
+    <Property Name="VAT_AMT" Type="money" Nullable="false" />
+    <Property Name="NBT_AMT" Type="money" Nullable="false" />
+    <Property Name="COST_AMT" Type="money" Nullable="false" />
+    <Property Name="PAYABLE_AMT" Type="money" Nullable="false" />
+    <Property Name="PAYABLE_BALANCE" Type="money" Nullable="false" />
+    <Property Name="SETTLED_RECEIPT_NO" Type="nvarchar" MaxLength="500" />
+    <Property Name="SETTLED_DATE" Type="datetime" />
+    <Property Name="SETTLED_USER" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="DocumentInfo">
+    <Key>
+      <PropertyRef Name="Unik" />
+    </Key>
+    <Property Name="Info" Type="varchar(max)" Nullable="false" />
+    <Property Name="DocumentNumber" Type="varchar(max)" Nullable="false" />
+    <Property Name="Unik" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="F2HELP_MAST">
+    <Key>
+      <PropertyRef Name="SEQ_NO" />
+    </Key>
+    <Property Name="SEQ_NO" Type="int" Nullable="false" />
+    <Property Name="TABLE_NAME" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="F1" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="F2" Type="nvarchar" MaxLength="50" />
+    <Property Name="F3" Type="nvarchar" MaxLength="50" />
+    <Property Name="F4" Type="nvarchar" MaxLength="50" />
+    <Property Name="F5" Type="nvarchar" MaxLength="50" />
+    <Property Name="F6" Type="nvarchar" MaxLength="50" />
+    <Property Name="F7" Type="nvarchar" MaxLength="50" />
+    <Property Name="F8" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="GRN_DETAIL">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="LOCA" />
+      <PropertyRef Name="GRN_NO" />
+      <PropertyRef Name="ITEM_LOCA" />
+      <PropertyRef Name="ITEM" />
+      <PropertyRef Name="UNIT" />
+    </Key>
+    <Property Name="COMPCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="LOCA" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="GRN_NO" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="ITEM_LOCA" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="ITEM" Type="varchar" MaxLength="35" Nullable="false" />
+    <Property Name="ITEM_DESC" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="UNIT" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="QTY" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="BULK_UNIT" Type="nvarchar" MaxLength="100" />
+    <Property Name="LOOSE_UNIT" Type="nvarchar" MaxLength="100" />
+    <Property Name="BULK_SALES_PRICE" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="LOOSE_SALES_PRICE" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="BULK_QTY" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="LOOSE_QTY" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="IS_DISCOUNT_PER" Type="numeric" Precision="1" Scale="0" Nullable="false" />
+    <Property Name="DISCOUNT" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="TOTAL" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="DISCOUNT_AMT" Type="numeric" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="GRN_MAST">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="LOCA" />
+      <PropertyRef Name="GRN_NO" />
+    </Key>
+    <Property Name="COMPCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="LOCA" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="GRN_NO" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="GRN_TYPE" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="SUPP_CODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="SUPP_NAME" Type="nvarchar" MaxLength="100" />
+    <Property Name="TXN_DATE" Type="datetime" />
+    <Property Name="GRN_DATE" Type="datetime" />
+    <Property Name="TXN_TIME" Type="varchar" MaxLength="50" />
+    <Property Name="REF" Type="varchar" MaxLength="50" />
+    <Property Name="DN_NO" Type="varchar" MaxLength="50" />
+    <Property Name="TOTAL" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="IS_DISCOUNT_PER" Type="numeric" Precision="1" Scale="0" />
+    <Property Name="TOTAL_AFTER_DISCOUNT" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="VAT_AMOUNT" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="NBT_AMOUNT" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="COST_AMOUNT" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="DEDUCTIONS" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="PAYABLE_AMOUNT" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="PAY_BALANCE" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="PAY_STATUS" Type="numeric" Precision="1" Scale="0" />
+    <Property Name="PAY_IN_PROGRESS" Type="numeric" Precision="1" Scale="0" />
+    <Property Name="VAT_CODE1" Type="varchar" MaxLength="50" />
+    <Property Name="VAT_CODE2" Type="varchar" MaxLength="50" />
+    <Property Name="BRANCH_CODE" Type="varchar" MaxLength="50" />
+    <Property Name="TERMINAL_ID" Type="varchar" MaxLength="50" />
+    <Property Name="USERCODE" Type="varchar" MaxLength="50" />
+    <Property Name="CANCELLED" Type="int" />
+    <Property Name="CANCEL_USERCODE" Type="varchar" MaxLength="50" />
+    <Property Name="CANCEL_DATE" Type="datetime" />
+    <Property Name="CANCEL_TIME" Type="varchar" MaxLength="1" />
+    <Property Name="PRINTED" Type="numeric" Precision="1" Scale="0" />
+    <Property Name="DISCOUNT" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="DISCOUNT_AMT" Type="numeric" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="INV_DETAIL">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="LOCA" />
+      <PropertyRef Name="CSH_CRD" />
+      <PropertyRef Name="INV_NO" />
+      <PropertyRef Name="ITEM_LOCA" />
+      <PropertyRef Name="ITEM" />
+      <PropertyRef Name="UNIT" />
+    </Key>
+    <Property Name="COMPCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="LOCA" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CSH_CRD" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="INV_NO" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="ITEM_LOCA" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="ITEM" Type="varchar" MaxLength="35" Nullable="false" />
+    <Property Name="ITEM_DESC" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="UNIT" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="QTY" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="BULK_UNIT" Type="nvarchar" MaxLength="100" />
+    <Property Name="LOOSE_UNIT" Type="nvarchar" MaxLength="100" />
+    <Property Name="BULK_SALES_PRICE" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="LOOSE_SALES_PRICE" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="BULK_QTY" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="LOOSE_QTY" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="IS_DISCOUNT_PER" Type="numeric" Precision="1" Scale="0" Nullable="false" />
+    <Property Name="DISCOUNT" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="TOTAL" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="DISCOUNT_AMT" Type="numeric" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="INV_MAST">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="LOCA" />
+      <PropertyRef Name="CSH_CRD" />
+      <PropertyRef Name="INV_NO" />
+    </Key>
+    <Property Name="COMPCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="LOCA" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CSH_CRD" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="INV_NO" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="INV_TYPE" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CUST_CODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CUST_NAME" Type="nvarchar" MaxLength="100" />
+    <Property Name="TXN_DATE" Type="datetime" />
+    <Property Name="INV_DATE" Type="datetime" />
+    <Property Name="TXN_TIME" Type="varchar" MaxLength="50" />
+    <Property Name="REF" Type="varchar" MaxLength="50" />
+    <Property Name="DN_NO" Type="varchar" MaxLength="50" />
+    <Property Name="TOTAL" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="IS_DISCOUNT_PER" Type="numeric" Precision="1" Scale="0" />
+    <Property Name="TOTAL_AFTER_DISCOUNT" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="VAT_AMOUNT" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="NBT_AMOUNT" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="COST_AMOUNT" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="DEDUCTIONS" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="PAYABLE_AMOUNT" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="PAY_BALANCE" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="PAY_STATUS" Type="numeric" Precision="1" Scale="0" />
+    <Property Name="PAY_IN_PROGRESS" Type="numeric" Precision="1" Scale="0" />
+    <Property Name="VAT_CODE1" Type="varchar" MaxLength="50" />
+    <Property Name="VAT_CODE2" Type="varchar" MaxLength="50" />
+    <Property Name="BRANCH_CODE" Type="varchar" MaxLength="50" />
+    <Property Name="TERMINAL_ID" Type="varchar" MaxLength="50" />
+    <Property Name="INVOICE_E" Type="varchar" MaxLength="500" />
+    <Property Name="AMOUNT_IN_WORD" Type="varchar" MaxLength="50" />
+    <Property Name="USERCODE" Type="varchar" MaxLength="50" />
+    <Property Name="CANCELLED" Type="int" />
+    <Property Name="CANCEL_USERCODE" Type="varchar" MaxLength="50" />
+    <Property Name="CANCEL_DATE" Type="datetime" />
+    <Property Name="CANCEL_TIME" Type="varchar" MaxLength="1" />
+    <Property Name="PRINTED" Type="numeric" Precision="1" Scale="0" />
+    <Property Name="DISCOUNT" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="DISCOUNT_AMT" Type="numeric" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="ITEM_CUTLIST">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="LOCA_CODE" />
+      <PropertyRef Name="ITEM" />
+      <PropertyRef Name="CUT_ITEM" />
+    </Key>
+    <Property Name="COMPCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="LOCA_CODE" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="ITEM" Type="varchar" MaxLength="35" Nullable="false" />
+    <Property Name="CUT_ITEM" Type="varchar" MaxLength="35" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ITEM_MAST">
+    <Key>
+      <PropertyRef Name="ITEM" />
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="LOCA_CODE" />
+    </Key>
+    <Property Name="ITEM" Type="varchar" MaxLength="35" Nullable="false" />
+    <Property Name="DESC1" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="DESC2" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="PACK" Type="numeric" Precision="5" Scale="0" Nullable="false" />
+    <Property Name="UNIT" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="ROL" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="ROQ" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="MAX_S" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="MIN_S" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="QIH" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="BF_BAL" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="CF_BAL" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="COST_PRICE" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="IS_ROUND" Type="bit" />
+    <Property Name="IS_CUTTED" Type="bit" />
+    <Property Name="CUT_STAT" Type="int" />
+    <Property Name="LENGTH" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="WIDTH" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="ITEM_UNIT1" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="ITEM_UNIT2" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="ACTUAL_COST" Type="int" />
+    <Property Name="IS_SERVICE_ITEM" Type="int" />
+    <Property Name="LAST_CHANGE_DATE" Type="date" />
+    <Property Name="UNIT_1_QTY" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="UNIT_2_QTY" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="BACK_UNIT_1_QTY" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="BACK_UNIT_2_QTY" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="ACTIVE_STAT" Type="int" />
+    <Property Name="CHANGED" Type="int" />
+    <Property Name="UNIT_1_RESERVED_QTY" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="UNIT_2_RESERVED_QTY" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="COMPCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="LOCA_CODE" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CATCODE" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CATCODE_L2" Type="varchar" MaxLength="5" />
+    <Property Name="CATCODE_L3" Type="varchar" MaxLength="5" />
+    <Property Name="ITEM_UNIT0" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="Is_stocks_in_second _unit" Type="int" Nullable="false" />
+    <Property Name="CATCODE_L4" Type="varchar" MaxLength="5" />
+    <Property Name="SALES_PRICE_BULK" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="SALES_PRICE_LOOSE" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="COST_PRICE_BULK" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="COST_PRICE_LOOSE" Type="numeric" Precision="18" Scale="2" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Inventory.dbo.ITEM_MAST_003' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="ITEM_MAST_003">
+    <Key>
+      <PropertyRef Name="ITEM" />
+      <PropertyRef Name="DESC1" />
+      <PropertyRef Name="DESC2" />
+      <PropertyRef Name="PACK" />
+      <PropertyRef Name="UNIT" />
+      <PropertyRef Name="LENGTH" />
+      <PropertyRef Name="WIDTH" />
+      <PropertyRef Name="ITEM_UNIT1" />
+      <PropertyRef Name="ITEM_UNIT2" />
+      <PropertyRef Name="UNIT_1_QTY" />
+      <PropertyRef Name="UNIT_2_QTY" />
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="LOCA_CODE" />
+      <PropertyRef Name="CATCODE" />
+      <PropertyRef Name="ITEM_UNIT0" />
+      <PropertyRef Name="Is_stocks_in_second _unit" />
+    </Key>
+    <Property Name="ITEM" Type="varchar" MaxLength="35" Nullable="false" />
+    <Property Name="DESC1" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="DESC2" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="PACK" Type="numeric" Precision="5" Scale="0" Nullable="false" />
+    <Property Name="UNIT" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="ROL" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="ROQ" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="MAX_S" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="MIN_S" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="QIH" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="BF_BAL" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="CF_BAL" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="COST_PRICE" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="IS_ROUND" Type="bit" />
+    <Property Name="IS_CUTTED" Type="bit" />
+    <Property Name="CUT_STAT" Type="int" />
+    <Property Name="LENGTH" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="WIDTH" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="ITEM_UNIT1" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="ITEM_UNIT2" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="ACTUAL_COST" Type="int" />
+    <Property Name="IS_SERVICE_ITEM" Type="int" />
+    <Property Name="LAST_CHANGE_DATE" Type="date" />
+    <Property Name="UNIT_1_QTY" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="UNIT_2_QTY" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="BACK_UNIT_1_QTY" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="BACK_UNIT_2_QTY" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="ACTIVE_STAT" Type="int" />
+    <Property Name="CHANGED" Type="int" />
+    <Property Name="UNIT_1_RESERVED_QTY" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="UNIT_2_RESERVED_QTY" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="COMPCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="LOCA_CODE" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CATCODE" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CATCODE_L2" Type="varchar" MaxLength="5" />
+    <Property Name="CATCODE_L3" Type="varchar" MaxLength="5" />
+    <Property Name="ITEM_UNIT0" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="Is_stocks_in_second _unit" Type="int" Nullable="false" />
+    <Property Name="CATCODE_L4" Type="varchar" MaxLength="5" />
+    <Property Name="SALES_PRICE_BULK" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="SALES_PRICE_LOOSE" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="COST_PRICE_BULK" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="COST_PRICE_LOOSE" Type="numeric" Precision="18" Scale="2" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Inventory.dbo.ITEM_MAST_004' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="ITEM_MAST_004">
+    <Key>
+      <PropertyRef Name="ITEM" />
+      <PropertyRef Name="DESC1" />
+      <PropertyRef Name="DESC2" />
+      <PropertyRef Name="PACK" />
+      <PropertyRef Name="UNIT" />
+      <PropertyRef Name="LENGTH" />
+      <PropertyRef Name="WIDTH" />
+      <PropertyRef Name="ITEM_UNIT1" />
+      <PropertyRef Name="ITEM_UNIT2" />
+      <PropertyRef Name="UNIT_1_QTY" />
+      <PropertyRef Name="UNIT_2_QTY" />
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="LOCA_CODE" />
+      <PropertyRef Name="CATCODE" />
+      <PropertyRef Name="ITEM_UNIT0" />
+      <PropertyRef Name="Is_stocks_in_second _unit" />
+    </Key>
+    <Property Name="ITEM" Type="varchar" MaxLength="35" Nullable="false" />
+    <Property Name="DESC1" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="DESC2" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="PACK" Type="numeric" Precision="5" Scale="0" Nullable="false" />
+    <Property Name="UNIT" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="ROL" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="ROQ" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="MAX_S" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="MIN_S" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="QIH" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="BF_BAL" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="CF_BAL" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="COST_PRICE" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="IS_ROUND" Type="bit" />
+    <Property Name="IS_CUTTED" Type="bit" />
+    <Property Name="CUT_STAT" Type="int" />
+    <Property Name="LENGTH" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="WIDTH" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="ITEM_UNIT1" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="ITEM_UNIT2" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="ACTUAL_COST" Type="int" />
+    <Property Name="IS_SERVICE_ITEM" Type="int" />
+    <Property Name="LAST_CHANGE_DATE" Type="date" />
+    <Property Name="UNIT_1_QTY" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="UNIT_2_QTY" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="BACK_UNIT_1_QTY" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="BACK_UNIT_2_QTY" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="ACTIVE_STAT" Type="int" />
+    <Property Name="CHANGED" Type="int" />
+    <Property Name="UNIT_1_RESERVED_QTY" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="UNIT_2_RESERVED_QTY" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="COMPCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="LOCA_CODE" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CATCODE" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="CATCODE_L2" Type="varchar" MaxLength="5" />
+    <Property Name="CATCODE_L3" Type="varchar" MaxLength="5" />
+    <Property Name="ITEM_UNIT0" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="Is_stocks_in_second _unit" Type="int" Nullable="false" />
+    <Property Name="CATCODE_L4" Type="varchar" MaxLength="5" />
+    <Property Name="SALES_PRICE_BULK" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="SALES_PRICE_LOOSE" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="COST_PRICE_BULK" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="COST_PRICE_LOOSE" Type="numeric" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="ITEM_SUPP">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="ITEMCODE" />
+      <PropertyRef Name="LOCA_CODE" />
+      <PropertyRef Name="SUPP_CODE" />
+    </Key>
+    <Property Name="COMPCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ITEMCODE" Type="varchar" MaxLength="35" Nullable="false" />
+    <Property Name="LOCA_CODE" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="SUPP_CODE" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="P_PRICE" Type="real" Nullable="false" />
+    <Property Name="Last_Change_Date" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LOCA_MAST">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="LOCA_CODE" />
+    </Key>
+    <Property Name="COMPCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="LOCA_CODE" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="LOCA_DESCRIPT" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="LOCA_LABEL" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="PHY_NO" Type="varchar" MaxLength="50" />
+    <Property Name="INV_NO" Type="varchar" MaxLength="50" />
+    <Property Name="CASH_INV_NO" Type="nvarchar" MaxLength="50" />
+    <Property Name="CREDIT_INV_NO" Type="nvarchar" MaxLength="50" />
+    <Property Name="GRN_NO" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CUTNO" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="TRANSNO" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ADJ_NO" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="NAVIGATION">
+    <Key>
+      <PropertyRef Name="Unik" />
+    </Key>
+    <Property Name="PARENT" Type="varchar(max)" />
+    <Property Name="CHILD" Type="varchar(max)" />
+    <Property Name="SEQ" Type="int" />
+    <Property Name="PATH" Type="varchar(max)" />
+    <Property Name="Unik" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="NETWORK">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+    </Key>
+    <Property Name="CompName" Type="varchar(max)" />
+    <Property Name="IsBranch" Type="tinyint" />
+    <Property Name="BranchCode" Type="varchar" MaxLength="100" />
+    <Property Name="Telephone" Type="varchar" MaxLength="50" />
+    <Property Name="Email" Type="varchar" MaxLength="50" />
+    <Property Name="VatNo" Type="varchar" MaxLength="50" />
+    <Property Name="COMPCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="SystemDate" Type="date" />
+    <Property Name="ADDRESS1" Type="varchar" MaxLength="500" />
+    <Property Name="ADDRESS2" Type="varchar" MaxLength="500" />
+    <Property Name="ADDRESS3" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="PHY_MAST">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="PHY_NO" />
+      <PropertyRef Name="LOCA" />
+      <PropertyRef Name="ITEM" />
+    </Key>
+    <Property Name="COMPCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="PHY_NO" Type="nvarchar" MaxLength="16" Nullable="false" />
+    <Property Name="LOCA" Type="nvarchar" MaxLength="6" Nullable="false" />
+    <Property Name="ITEM" Type="nvarchar" MaxLength="35" Nullable="false" />
+    <Property Name="PHY_DATE" Type="datetime" Nullable="false" />
+    <Property Name="PHY_TIME" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="USERCODE" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="BULK_QTY" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="LOOSE_QTY" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PRICE_TYPES">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="TXN_TYPE" />
+      <PropertyRef Name="PRICE_CODE" />
+    </Key>
+    <Property Name="COMPCODE" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TXN_TYPE" Type="nvarchar" MaxLength="5" Nullable="false" />
+    <Property Name="PRICE_CODE" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="PRICE_NAME" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="STOCK">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="LOCA" />
+      <PropertyRef Name="ITEM" />
+      <PropertyRef Name="TXN_TYPE" />
+      <PropertyRef Name="DOC_NO" />
+      <PropertyRef Name="CSH_CRD" />
+      <PropertyRef Name="LOCA_TO" />
+      <PropertyRef Name="UNIT" />
+    </Key>
+    <Property Name="COMPCODE" Type="nvarchar" MaxLength="6" Nullable="false" />
+    <Property Name="LOCA" Type="nvarchar" MaxLength="6" Nullable="false" />
+    <Property Name="ITEM" Type="nvarchar" MaxLength="35" Nullable="false" />
+    <Property Name="TXN_TYPE" Type="nvarchar" MaxLength="6" Nullable="false" />
+    <Property Name="DOC_NO" Type="nvarchar" MaxLength="16" Nullable="false" />
+    <Property Name="CSH_CRD" Type="nvarchar" MaxLength="4" Nullable="false" />
+    <Property Name="LOCA_TO" Type="nvarchar" MaxLength="6" Nullable="false" />
+    <Property Name="UNIT" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="LOCA_TO_DESC" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TXN_DATE" Type="datetime" Nullable="false" />
+    <Property Name="SEQ_NO" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="REFNO" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PURCHASE_PRICE" Type="money" Nullable="false" />
+    <Property Name="COST_PRICE" Type="money" Nullable="false" />
+    <Property Name="BULK_UNIT" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="LOOSE_UNIT" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="BULK_QTY" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="LOOSE_QTY" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="DOC_BAL_BULK_QTY" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="DOC_BAL_LOOSE_QTY" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="STOCK_TYPE" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="IS_MONTH_END" Type="int" Nullable="false" />
+    <Property Name="SEQ_NO_FULL" Type="numeric" Precision="8" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SUPP_MAST">
+    <Key>
+      <PropertyRef Name="COMCODE" />
+      <PropertyRef Name="SUPP_CODE" />
+    </Key>
+    <Property Name="COMCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="SUPP_CODE" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="SUPP_NAME" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="SUPP_ADDRESS1" Type="varchar" MaxLength="80" Nullable="false" />
+    <Property Name="SUPP_ADDRESS2" Type="varchar" MaxLength="80" Nullable="false" />
+    <Property Name="SUPP_PHONE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="SUPP_EMAIL" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="USERCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CREDIT_LIMIT" Type="real" Nullable="false" />
+    <Property Name="CREDIT_PERIOD" Type="real" Nullable="false" />
+    <Property Name="GLCODE" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="AP_OPBAL" Type="real" Nullable="false" />
+    <Property Name="AP_OPBAL_BALANCE" Type="real" Nullable="false" />
+    <Property Name="SUPP_FAX" Type="varchar" MaxLength="200" />
+    <Property Name="SUPP_ADDRESS3" Type="varchar" MaxLength="200" />
+    <Property Name="SUPP_CONTACT_PERSON" Type="varchar" MaxLength="200" />
+    <Property Name="SUPP_VATNO" Type="varchar" MaxLength="200" />
+    <Property Name="OLD_GLCODE" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="TAX_MAST">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="TAXCODE" />
+    </Key>
+    <Property Name="COMPCODE" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TAXCODE" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="TAXDESC" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TAXAMOUNT" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TRANS_DETAIL">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="LOCA_FROM" />
+      <PropertyRef Name="TRANS_NO" />
+      <PropertyRef Name="ITEM_LOCA" />
+      <PropertyRef Name="ITEM" />
+      <PropertyRef Name="UNIT" />
+    </Key>
+    <Property Name="COMPCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="LOCA_FROM" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="TRANS_NO" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="ITEM_LOCA" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="TRANS_DATE" Type="datetime" />
+    <Property Name="ITEM" Type="varchar" MaxLength="35" Nullable="false" />
+    <Property Name="ITEM_DESC" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="UNIT" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="QTY" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="BULK_UNIT" Type="nvarchar" MaxLength="100" />
+    <Property Name="LOOSE_UNIT" Type="nvarchar" MaxLength="100" />
+    <Property Name="BULK_SALES_PRICE" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="LOOSE_SALES_PRICE" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="BULK_QTY" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="LOOSE_QTY" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="IS_DISCOUNT_PER" Type="numeric" Precision="1" Scale="0" Nullable="false" />
+    <Property Name="DISCOUNT" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="TOTAL" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="DISCOUNT_AMT" Type="numeric" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="TRANS_MAST">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="LOCA_FROM" />
+      <PropertyRef Name="TRANS_NO" />
+    </Key>
+    <Property Name="COMPCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="LOCA_FROM" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="LOCA_TO" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="TRANS_NO" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="NOTE01" Type="nvarchar" MaxLength="100" />
+    <Property Name="NOTE02" Type="nvarchar" MaxLength="100" />
+    <Property Name="SEQNO_01" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="SEQNO_02" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="SEQNO_03" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="SEQREF_01" Type="nvarchar" MaxLength="20" />
+    <Property Name="SEQREF_02" Type="nvarchar" MaxLength="20" />
+    <Property Name="SEQREF_03" Type="nvarchar" MaxLength="20" />
+    <Property Name="TXN_DATE" Type="datetime" />
+    <Property Name="TRANS_DATE" Type="datetime" />
+    <Property Name="TXN_TIME" Type="varchar" MaxLength="50" />
+    <Property Name="TOTAL" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="IS_DISCOUNT_PER" Type="numeric" Precision="1" Scale="0" />
+    <Property Name="TOTAL_AFTER_DISCOUNT" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="VAT_AMOUNT" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="NBT_AMOUNT" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="COST_AMOUNT" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="PAYABLE_AMOUNT" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="PAY_BALANCE" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="PAY_STATUS" Type="numeric" Precision="1" Scale="0" />
+    <Property Name="PAY_IN_PROGRESS" Type="numeric" Precision="1" Scale="0" />
+    <Property Name="VAT_CODE1" Type="varchar" MaxLength="50" />
+    <Property Name="VAT_CODE2" Type="varchar" MaxLength="50" />
+    <Property Name="BRANCH_CODE" Type="varchar" MaxLength="50" />
+    <Property Name="TERMINAL_ID" Type="varchar" MaxLength="50" />
+    <Property Name="USERCODE" Type="varchar" MaxLength="50" />
+    <Property Name="CANCELLED" Type="int" />
+    <Property Name="CANCEL_USERCODE" Type="varchar" MaxLength="50" />
+    <Property Name="CANCEL_DATE" Type="datetime" />
+    <Property Name="CANCEL_TIME" Type="varchar" MaxLength="1" />
+    <Property Name="PRINTED" Type="numeric" Precision="1" Scale="0" />
+    <Property Name="DISCOUNT" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="DISCOUNT_AMT" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="ACCEPTED" Type="int" />
+    <Property Name="ACCEPT_USERCODE" Type="varchar" MaxLength="50" />
+    <Property Name="ACCEPT_DATE" Type="datetime" />
+    <Property Name="ACCEPT_TIME" Type="varchar" MaxLength="1" />
+    <Property Name="ACCEPT_BRANCH_CODE" Type="varchar" MaxLength="50" />
+    <Property Name="ACCEPT_TERMINAL_ID" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TXN_TYPES">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="TXN_TYPE" />
+      <PropertyRef Name="TXN_CODE" />
+    </Key>
+    <Property Name="COMPCODE" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TXN_TYPE" Type="nvarchar" MaxLength="5" Nullable="false" />
+    <Property Name="TXN_CODE" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="TXN_NAME" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UNIT_MAST">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="UNIT_CODE" />
+    </Key>
+    <Property Name="COMPCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="UNIT_CODE" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="UNIT_DESC" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="USERINFO">
+    <Key>
+      <PropertyRef Name="USERCODE" />
+      <PropertyRef Name="COMPCODE" />
+    </Key>
+    <Property Name="FullName" Type="varchar(max)" />
+    <Property Name="Address" Type="varchar(max)" />
+    <Property Name="NIC" Type="varchar" MaxLength="50" />
+    <Property Name="Birthday" Type="date" />
+    <Property Name="Password" Type="varchar(max)" />
+    <Property Name="USERCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="UserLevel" Type="varchar" MaxLength="50" />
+    <Property Name="RightCodes" Type="varchar(max)" />
+    <Property Name="DepartmentCode" Type="varchar" MaxLength="50" />
+    <Property Name="DesignationCode" Type="varchar" MaxLength="50" />
+    <Property Name="COMPCODE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="AllowedLocations" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityContainer Name="CompuLinERPAPICompuLinEntityModelStoreContainer">
+    <EntitySet Name="ACC_CAT_L1" EntityType="Self.ACC_CAT_L1" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ACC_CAT_L2" EntityType="Self.ACC_CAT_L2" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ACC_CAT_L3" EntityType="Self.ACC_CAT_L3" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ACC_CAT_L4" EntityType="Self.ACC_CAT_L4" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ACC_CAT_L5" EntityType="Self.ACC_CAT_L5" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CAT_L2" EntityType="Self.CAT_L2" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CAT_L3" EntityType="Self.CAT_L3" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CAT_L4" EntityType="Self.CAT_L4" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CAT_MAST" EntityType="Self.CAT_MAST" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CUST_MAST" EntityType="Self.CUST_MAST" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CUSTOMER_LEDGER" EntityType="Self.CUSTOMER_LEDGER" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DocumentInfo" EntityType="Self.DocumentInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="F2HELP_MAST" EntityType="Self.F2HELP_MAST" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GRN_DETAIL" EntityType="Self.GRN_DETAIL" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GRN_MAST" EntityType="Self.GRN_MAST" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="INV_DETAIL" EntityType="Self.INV_DETAIL" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="INV_MAST" EntityType="Self.INV_MAST" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ITEM_CUTLIST" EntityType="Self.ITEM_CUTLIST" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ITEM_MAST" EntityType="Self.ITEM_MAST" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ITEM_SUPP" EntityType="Self.ITEM_SUPP" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LOCA_MAST" EntityType="Self.LOCA_MAST" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NAVIGATION" EntityType="Self.NAVIGATION" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NETWORK" EntityType="Self.NETWORK" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PHY_MAST" EntityType="Self.PHY_MAST" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PRICE_TYPES" EntityType="Self.PRICE_TYPES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="STOCK" EntityType="Self.STOCK" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SUPP_MAST" EntityType="Self.SUPP_MAST" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TAX_MAST" EntityType="Self.TAX_MAST" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TRANS_DETAIL" EntityType="Self.TRANS_DETAIL" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TRANS_MAST" EntityType="Self.TRANS_MAST" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TXN_TYPES" EntityType="Self.TXN_TYPES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UNIT_MAST" EntityType="Self.UNIT_MAST" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USERINFO" EntityType="Self.USERINFO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ITEM_MAST_003" EntityType="Self.ITEM_MAST_003" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[ITEM_MAST_003].[ITEM] AS [ITEM], 
+[ITEM_MAST_003].[DESC1] AS [DESC1], 
+[ITEM_MAST_003].[DESC2] AS [DESC2], 
+[ITEM_MAST_003].[PACK] AS [PACK], 
+[ITEM_MAST_003].[UNIT] AS [UNIT], 
+[ITEM_MAST_003].[ROL] AS [ROL], 
+[ITEM_MAST_003].[ROQ] AS [ROQ], 
+[ITEM_MAST_003].[MAX_S] AS [MAX_S], 
+[ITEM_MAST_003].[MIN_S] AS [MIN_S], 
+[ITEM_MAST_003].[QIH] AS [QIH], 
+[ITEM_MAST_003].[BF_BAL] AS [BF_BAL], 
+[ITEM_MAST_003].[CF_BAL] AS [CF_BAL], 
+[ITEM_MAST_003].[COST_PRICE] AS [COST_PRICE], 
+[ITEM_MAST_003].[IS_ROUND] AS [IS_ROUND], 
+[ITEM_MAST_003].[IS_CUTTED] AS [IS_CUTTED], 
+[ITEM_MAST_003].[CUT_STAT] AS [CUT_STAT], 
+[ITEM_MAST_003].[LENGTH] AS [LENGTH], 
+[ITEM_MAST_003].[WIDTH] AS [WIDTH], 
+[ITEM_MAST_003].[ITEM_UNIT1] AS [ITEM_UNIT1], 
+[ITEM_MAST_003].[ITEM_UNIT2] AS [ITEM_UNIT2], 
+[ITEM_MAST_003].[ACTUAL_COST] AS [ACTUAL_COST], 
+[ITEM_MAST_003].[IS_SERVICE_ITEM] AS [IS_SERVICE_ITEM], 
+[ITEM_MAST_003].[LAST_CHANGE_DATE] AS [LAST_CHANGE_DATE], 
+[ITEM_MAST_003].[UNIT_1_QTY] AS [UNIT_1_QTY], 
+[ITEM_MAST_003].[UNIT_2_QTY] AS [UNIT_2_QTY], 
+[ITEM_MAST_003].[BACK_UNIT_1_QTY] AS [BACK_UNIT_1_QTY], 
+[ITEM_MAST_003].[BACK_UNIT_2_QTY] AS [BACK_UNIT_2_QTY], 
+[ITEM_MAST_003].[ACTIVE_STAT] AS [ACTIVE_STAT], 
+[ITEM_MAST_003].[CHANGED] AS [CHANGED], 
+[ITEM_MAST_003].[UNIT_1_RESERVED_QTY] AS [UNIT_1_RESERVED_QTY], 
+[ITEM_MAST_003].[UNIT_2_RESERVED_QTY] AS [UNIT_2_RESERVED_QTY], 
+[ITEM_MAST_003].[COMPCODE] AS [COMPCODE], 
+[ITEM_MAST_003].[LOCA_CODE] AS [LOCA_CODE], 
+[ITEM_MAST_003].[CATCODE] AS [CATCODE], 
+[ITEM_MAST_003].[CATCODE_L2] AS [CATCODE_L2], 
+[ITEM_MAST_003].[CATCODE_L3] AS [CATCODE_L3], 
+[ITEM_MAST_003].[ITEM_UNIT0] AS [ITEM_UNIT0], 
+[ITEM_MAST_003].[Is_stocks_in_second _unit] AS [Is_stocks_in_second _unit], 
+[ITEM_MAST_003].[CATCODE_L4] AS [CATCODE_L4], 
+[ITEM_MAST_003].[SALES_PRICE_BULK] AS [SALES_PRICE_BULK], 
+[ITEM_MAST_003].[SALES_PRICE_LOOSE] AS [SALES_PRICE_LOOSE], 
+[ITEM_MAST_003].[COST_PRICE_BULK] AS [COST_PRICE_BULK], 
+[ITEM_MAST_003].[COST_PRICE_LOOSE] AS [COST_PRICE_LOOSE]
+FROM [dbo].[ITEM_MAST_003] AS [ITEM_MAST_003]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ITEM_MAST_004" EntityType="Self.ITEM_MAST_004" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[ITEM_MAST_004].[ITEM] AS [ITEM], 
+[ITEM_MAST_004].[DESC1] AS [DESC1], 
+[ITEM_MAST_004].[DESC2] AS [DESC2], 
+[ITEM_MAST_004].[PACK] AS [PACK], 
+[ITEM_MAST_004].[UNIT] AS [UNIT], 
+[ITEM_MAST_004].[ROL] AS [ROL], 
+[ITEM_MAST_004].[ROQ] AS [ROQ], 
+[ITEM_MAST_004].[MAX_S] AS [MAX_S], 
+[ITEM_MAST_004].[MIN_S] AS [MIN_S], 
+[ITEM_MAST_004].[QIH] AS [QIH], 
+[ITEM_MAST_004].[BF_BAL] AS [BF_BAL], 
+[ITEM_MAST_004].[CF_BAL] AS [CF_BAL], 
+[ITEM_MAST_004].[COST_PRICE] AS [COST_PRICE], 
+[ITEM_MAST_004].[IS_ROUND] AS [IS_ROUND], 
+[ITEM_MAST_004].[IS_CUTTED] AS [IS_CUTTED], 
+[ITEM_MAST_004].[CUT_STAT] AS [CUT_STAT], 
+[ITEM_MAST_004].[LENGTH] AS [LENGTH], 
+[ITEM_MAST_004].[WIDTH] AS [WIDTH], 
+[ITEM_MAST_004].[ITEM_UNIT1] AS [ITEM_UNIT1], 
+[ITEM_MAST_004].[ITEM_UNIT2] AS [ITEM_UNIT2], 
+[ITEM_MAST_004].[ACTUAL_COST] AS [ACTUAL_COST], 
+[ITEM_MAST_004].[IS_SERVICE_ITEM] AS [IS_SERVICE_ITEM], 
+[ITEM_MAST_004].[LAST_CHANGE_DATE] AS [LAST_CHANGE_DATE], 
+[ITEM_MAST_004].[UNIT_1_QTY] AS [UNIT_1_QTY], 
+[ITEM_MAST_004].[UNIT_2_QTY] AS [UNIT_2_QTY], 
+[ITEM_MAST_004].[BACK_UNIT_1_QTY] AS [BACK_UNIT_1_QTY], 
+[ITEM_MAST_004].[BACK_UNIT_2_QTY] AS [BACK_UNIT_2_QTY], 
+[ITEM_MAST_004].[ACTIVE_STAT] AS [ACTIVE_STAT], 
+[ITEM_MAST_004].[CHANGED] AS [CHANGED], 
+[ITEM_MAST_004].[UNIT_1_RESERVED_QTY] AS [UNIT_1_RESERVED_QTY], 
+[ITEM_MAST_004].[UNIT_2_RESERVED_QTY] AS [UNIT_2_RESERVED_QTY], 
+[ITEM_MAST_004].[COMPCODE] AS [COMPCODE], 
+[ITEM_MAST_004].[LOCA_CODE] AS [LOCA_CODE], 
+[ITEM_MAST_004].[CATCODE] AS [CATCODE], 
+[ITEM_MAST_004].[CATCODE_L2] AS [CATCODE_L2], 
+[ITEM_MAST_004].[CATCODE_L3] AS [CATCODE_L3], 
+[ITEM_MAST_004].[ITEM_UNIT0] AS [ITEM_UNIT0], 
+[ITEM_MAST_004].[Is_stocks_in_second _unit] AS [Is_stocks_in_second _unit], 
+[ITEM_MAST_004].[CATCODE_L4] AS [CATCODE_L4], 
+[ITEM_MAST_004].[SALES_PRICE_BULK] AS [SALES_PRICE_BULK], 
+[ITEM_MAST_004].[SALES_PRICE_LOOSE] AS [SALES_PRICE_LOOSE], 
+[ITEM_MAST_004].[COST_PRICE_BULK] AS [COST_PRICE_BULK], 
+[ITEM_MAST_004].[COST_PRICE_LOOSE] AS [COST_PRICE_LOOSE]
+FROM [dbo].[ITEM_MAST_004] AS [ITEM_MAST_004]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

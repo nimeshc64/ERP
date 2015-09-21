@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="85e4617258094a51b317f41e88476f8d" Name="Diagram1" ZoomLevel="77" DisplayType="true">
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.ACC_CAT_L1" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.ACC_CAT_L2" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.ACC_CAT_L3" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.ACC_CAT_L4" Width="1.5" PointX="0.75" PointY="4.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.ACC_CAT_L5" Width="1.5" PointX="2.75" PointY="4.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.CAT_L2" Width="1.5" PointX="4.75" PointY="4.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.CAT_L3" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.CAT_L4" Width="1.5" PointX="6.75" PointY="4.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.CAT_MAST" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.CUST_MAST" Width="1.5" PointX="8.75" PointY="4.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.CUSTOMER_LEDGER" Width="1.5" PointX="0.75" PointY="9.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.DocumentInfo" Width="1.5" PointX="2.75" PointY="9.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.F2HELP_MAST" Width="1.5" PointX="4.75" PointY="9.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.GL" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.GRN_DETAIL" Width="1.5" PointX="10.75" PointY="6.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.GRN_MAST" Width="1.5" PointX="6.75" PointY="11.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.INV_DETAIL" Width="1.5" PointX="12.75" PointY="0.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.INV_MAST" Width="1.5" PointX="12.75" PointY="6.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.ITEM_CUTLIST" Width="1.5" PointX="8.75" PointY="12.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.ITEM_MAST" Width="1.5" PointX="2.75" PointY="13.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.ITEM_SUPP" Width="1.5" PointX="14.75" PointY="0.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.LOCA_MAST" Width="1.5" PointX="14.75" PointY="4.375" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.NAVIGATION" Width="1.5" PointX="14.75" PointY="8.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.PHY_MAST" Width="1.5" PointX="8.75" PointY="15.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.PRICE_TYPES" Width="1.5" PointX="10.75" PointY="15.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.RECEIPT_DETAIL" Width="1.5" PointX="12.75" PointY="15.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.RECEIPT_INV" Width="1.5" PointX="14.75" PointY="15.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.RECEIPT_MAST" Width="1.5" PointX="16.75" PointY="0.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.STOCK" Width="1.5" PointX="16.75" PointY="9.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.SUPP_MAST" Width="1.5" PointX="16.75" PointY="16.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.TAX_MAST" Width="1.5" PointX="18.75" PointY="0.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.TRANS_DETAIL" Width="1.5" PointX="18.75" PointY="3.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.TRANS_MAST" Width="1.5" PointX="18.75" PointY="9.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.TXN_TYPES" Width="1.5" PointX="8.75" PointY="19.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.UNIT_MAST" Width="1.5" PointX="20.75" PointY="0.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.USERINFO" Width="1.5" PointX="20.75" PointY="3.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.ITEM_MAST_003" Width="1.5" PointX="4.75" PointY="20.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.ITEM_MAST_004" Width="1.5" PointX="20.75" PointY="8.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.NETWORK" Width="1.5" PointX="11.375" PointY="20.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.LOCA_DETAIL" Width="1.5" PointX="13.375" PointY="20.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

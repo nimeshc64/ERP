@@ -1,0 +1,46 @@
+CREATE TABLE [dbo].[RECEIPT_MAST](
+ [COMPCODE] [varchar](5) NOT NULL,
+ [REC_NO] [varchar](16) NOT NULL,
+ [REC_DATE] [date] NOT NULL,
+ [REC_TIME] [varchar](20) NOT NULL,
+ [CUST] [varchar](10) NOT NULL,
+ [CUST_NAME] [varchar](100) NOT NULL,
+ [REFNO] [varchar](20) NOT NULL,
+ [REFSYS] [varchar](20) NOT NULL,
+ [AMOUNT] [numeric](18,2) NOT NULL,
+ [TOTCHQS] [numeric](18,2) NOT NULL,
+ [TOTCASH] [numeric](18,2) NOT NULL,
+ [REC_MEMO] [varchar](100) NOT NULL,
+ [DEPBANK] [varchar](10) NOT NULL,
+ [GLCSHDB] [varchar](10) NOT NULL,
+ [GLCHQDB] [varchar](10) NOT NULL,
+ [USERCODE] [varchar](10) NOT NULL,
+ [CANCEL] [int] NOT NULL,
+ [CUSER] [varchar](10) NOT NULL,
+ [PRINTED] [int] NOT NULL,
+ [POSTED] [int] NOT NULL,
+ [CANPOSTED] [int] NOT NULL,
+ [ISREBANK] [int] NOT NULL,
+ [OVERPAYMENT] [numeric](18,2) DEFAULT 0 NOT NULL,
+ [PAY_TYPE] [varchar](5) DEFAULT 0 NOT NULL,
+ [REC_TYPE] [varchar](20) DEFAULT 0 NOT NULL,
+ [ISADVANCE] [int] DEFAULT 0,
+ [BALANCE_AMT] [numeric](18,2) DEFAULT 0,
+ [AMOUNT_IN_WORDS] [varchar](500),
+ [REFERENCE_DETAILS] [varchar](20),
+ [IS_ALL_CASH] [int] DEFAULT 0,
+ [IS_ALL_BANK] [int] DEFAULT 0,
+ [DIRECT_SETTLE_USER] [varchar](20),
+ [DIRECT_SETTLE_DATE] [date],
+ [DIRECT_SETTLE_TIME] [varchar](20)
+ 
+ CONSTRAINT [PK_RECEIPT_MAST_MAST] PRIMARY KEY CLUSTERED 
+(
+ [COMPCODE] ASC,
+ [REC_NO] ASC
+)) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO

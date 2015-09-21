@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2968B367-AD94-496E-94D1-28A7AC77FEFC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CompuLinERP.WEB</RootNamespace>
+    <AssemblyName>CompuLinERP.WEB</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Main.aspx" />
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.CAT_L2.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.CAT_L3.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.CAT_L4.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.CAT_MAST.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.CUST_MAST.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.DeleteCategoryL2InfoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.DeleteCategoryL3InfoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.DeleteCategoryL4InfoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.DeleteCategoryMasterInfoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.DeleteCustomerDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.DeleteItemDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.DeleteLocationDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.DeleteSupplierDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.DeleteUnitDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.DeleteUserResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.DocumentInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.F2HELP_MAST.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllCategoryDetailsByIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllCategoryMasterInfoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllCompanyDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllCustomerDetailsByCompanyResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllCustomerDetailsByIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllDetailedObjectInfoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllDetailsByItemOrderResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllDetailsByLocationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllDocDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllF2HELP_MASTDetailsBySeqNoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllFilteredInfoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllItemDetailsByAllLocationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllItemDetailsByIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllL2CategoryDetailsByIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllL2CategoryDetailsByMasterIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllL2CategoryDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllL3CategoryDetailsByIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllL3CategoryDetailsByMastCatIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllL3CategoryDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllL4CategoryDetailsByIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllL4CategoryDetailsByMastCatIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllL4CategoryDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllLocationDetailsByIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllLocationDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllSalesPriceTypesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllSupplierDetailsByCompanyResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllSupplierDetailsByIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllSupplierDetailsByItemIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllTreeViewInfoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllTxnTypesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllUnitDetailsByCompanyResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllUnitDetailsByIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetAllUserDetailsByCompanyResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetCompanyDetailsByIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.GetUserInfoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.InsertCategoryL2InfoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.InsertCategoryL3InfoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.InsertCategoryL4InfoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.InsertCategoryMasterInfoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.InsertCustomerDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.InsertDocumentInfoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.InsertInvoiceMastDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.InsertItemDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.InsertLocationDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.InsertNewUserResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.InsertSupplierDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.InsertUnitDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.IsValidUserResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.ITEM_MAST.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.ITEM_SUPP.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.LOCA_MAST.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.NAVIGATION.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.NETWORK.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.PhysicalStockInsertNewDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.PRICE_TYPES.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.SUPP_MAST.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.TXN_TYPES.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.UNIT_MAST.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.UpdateCategoryL2InfoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.UpdateCategoryL3InfoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.UpdateCategoryL4InfoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.UpdateCategoryMasterInfoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.UpdateCustomerDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.UpdateItemDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.UpdateItemsDetailsByColumnResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.UpdateLocationDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.UpdateSupplierDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.UpdateUnitDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.UpdateUserResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\WebInventoryWebService\CompuLinERP.WEB.WebInventoryWebService.USERINFO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Service References\WebInventoryWebService\InventoryWebService.wsdl" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\WebInventoryWebService\InventoryWebService.disco" />
+    <None Include="Service References\WebInventoryWebService\configuration91.svcinfo" />
+    <None Include="Service References\WebInventoryWebService\configuration.svcinfo" />
+    <None Include="Service References\WebInventoryWebService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\WebInventoryWebService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\WebInventoryWebService\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>59719</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:59719/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

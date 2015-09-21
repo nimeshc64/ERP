@@ -1,0 +1,28 @@
+CREATE TABLE [dbo].[RECEIPT_DETAIL](
+ [COMPCODE] [varchar](5) NOT NULL,
+ [REC_NO] [varchar](16) NOT NULL,
+ [REC_DATE] [date] NOT NULL,
+ [REFNO] [varchar](20) NOT NULL,
+ [REFSYS] [varchar](20) NOT NULL,
+ [MODE_] [varchar](20) NOT NULL,
+ [REC_DESC] [varchar](100) NOT NULL,
+[AMOUNT] [numeric](18,2) NOT NULL,
+ [DEPBANK] [varchar](10) NOT NULL,
+ [POSTED] [int] NOT NULL,
+ [CANPOSTED] [int] NOT NULL,
+ [ISREBANK] [int] NOT NULL,
+ [CHQ_DATE] [date],
+ [DIRECT_SETTLE_TIME] [varchar](20)
+ 
+ CONSTRAINT [PK_RECEIPT_DETAIL] PRIMARY KEY CLUSTERED 
+(
+ [COMPCODE] ASC,
+ [REC_NO] ASC,
+ [MODE_] ASC,
+ [REC_DESC] ASC
+)) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
