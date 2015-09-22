@@ -207,6 +207,12 @@
     <Compile Include="GRN.Designer.cs">
       <DependentUpon>GRN.cs</DependentUpon>
     </Compile>
+    <Compile Include="InvoiceReportDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InvoiceReportDisplay.designer.cs">
+      <DependentUpon>InvoiceReportDisplay.cs</DependentUpon>
+    </Compile>
     <Compile Include="JournalEntries.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -218,6 +224,12 @@
     </Compile>
     <Compile Include="LocationCustomize.Designer.cs">
       <DependentUpon>LocationCustomize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PhysicalStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhysicalStock.designer.cs">
+      <DependentUpon>PhysicalStock.cs</DependentUpon>
     </Compile>
     <Compile Include="Receipts.cs">
       <SubType>Form</SubType>
@@ -388,11 +400,17 @@
     <EmbeddedResource Include="GRN.resx">
       <DependentUpon>GRN.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="InvoiceReportDisplay.resx">
+      <DependentUpon>InvoiceReportDisplay.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="JournalEntries.resx">
       <DependentUpon>JournalEntries.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LocationCustomize.resx">
       <DependentUpon>LocationCustomize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhysicalStock.resx">
+      <DependentUpon>PhysicalStock.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Receipts.resx">
       <DependentUpon>Receipts.cs</DependentUpon>

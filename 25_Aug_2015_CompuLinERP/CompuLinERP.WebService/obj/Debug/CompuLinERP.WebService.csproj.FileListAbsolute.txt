@@ -97,3 +97,13 @@ F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\Enti
 F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.csprojResolveAssemblyReference.cache
 F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.dll
 F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.pdb
+F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.dll.config
+F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.dll
+F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.WebService.pdb
+F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.API.dll
+F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\EntityFramework.dll
+F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.API.pdb
+F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\EntityFramework.xml
+F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.csprojResolveAssemblyReference.cache
+F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.dll
+F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.pdb

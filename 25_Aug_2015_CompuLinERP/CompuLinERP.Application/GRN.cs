@@ -68,9 +68,9 @@ namespace CompuLinERP.WIN
                 {
                     SearchCriteria search = new SearchCriteria();
                     search.Location = (location.Text);
-                    search.SequenceNo = 2;
+                    search.SequenceNo = 5;
                     search.CompanyCode = _user.COMPCODE;
-                    search.SearchStartingCharacters = txtLoca.Text;
+                    search.SearchStartingCharacters =_user.USERCODE;
 
                     HelpScreen form = new HelpScreen(search);
                     DialogResult dialogResult = form.ShowDialog();

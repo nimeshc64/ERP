@@ -193,11 +193,20 @@ namespace CompuLinINV.WIN
                     }
                 case "Location Customize":
                     {
-                        LocationCustomize form = new LocationCustomize(_user);
-                        form.MdiParent = this;
-                        form.StartPosition = FormStartPosition.CenterScreen;
-                        form.Show();
-                        break;
+                        if (_user.USERCODE=="Admin")
+                        {
+                            LocationCustomize form = new LocationCustomize(_user);
+                            form.MdiParent = this;
+                            form.StartPosition = FormStartPosition.CenterScreen;
+                            form.Show();
+                            break;
+                        }
+                        else
+                        {
+                            MessageBox.Show("Access Denied");
+                            break;
+                        }
+                       
                     }               
                 case "Journal Entries":
                     {
@@ -218,6 +227,14 @@ namespace CompuLinINV.WIN
                 case "Cutter":
                     {
                         CutItem form = new CutItem(_user);
+                        form.MdiParent = this;
+                        form.StartPosition = FormStartPosition.CenterScreen;
+                        form.Show();
+                        break;
+                    }
+                case "Physical Stock":
+                    {
+                        PhysicalStock form = new PhysicalStock(_user);
                         form.MdiParent = this;
                         form.StartPosition = FormStartPosition.CenterScreen;
                         form.Show();
