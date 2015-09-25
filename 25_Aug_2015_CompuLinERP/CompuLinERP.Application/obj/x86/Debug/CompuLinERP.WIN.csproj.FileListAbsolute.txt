@@ -158,8 +158,10 @@ F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj
 F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.ChartOfAccounts.resources
 F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.CutItem.resources
 F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.GRN.resources
+F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinINV.WIN.InvoiceReportDisplay.resources
 F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.JournalEntries.resources
 F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.LocationCustomize.resources
+F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.PhysicalStock.resources
 F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.Receipts.resources
 F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.SalesPrice.resources
 F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.CustomerDetails.resources
@@ -190,6 +192,4 @@ F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj
 F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.application
 F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.exe
 F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.pdb
-F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.PhysicalStock.resources
-F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinINV.WIN.InvoiceReportDisplay.resources
 F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.csprojResolveAssemblyReference.cache

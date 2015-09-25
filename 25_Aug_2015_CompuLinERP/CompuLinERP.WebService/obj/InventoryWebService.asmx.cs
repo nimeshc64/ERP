@@ -704,16 +704,16 @@ namespace CompuLinINV.WebService
         }
 
         [WebMethod]
-        public bool DeleteLocationCustomize(string code, string compCode)
+        public bool DeleteLocationCustomize(string comp, string user, string loca)
         {
-            bool status = locationCustomizeController.DeleteDetails(code, compCode);
+            bool status = locationCustomizeController.DeleteDetails(comp, user, loca);
             return status;
         }
 
         [WebMethod]
         public List<LOCA_DETAIL> GetAllLocationCustomize(string networkId)
         {
-            List<LOCA_DETAIL> details = locationCustomizeController.GetAllDetails(networkId);
+            List<LOCA_DETAIL> details = locationCustomizeController.GetAllLocationDetails(networkId);
             return details;
         }
 
@@ -722,6 +722,13 @@ namespace CompuLinINV.WebService
         public List<USERINFO> GetAllUsersDetails()
         {
             List<USERINFO> details = locationCustomizeController.GetAllUsers();
+            return details;
+        }
+
+        [WebMethod]
+        public bool LocationCustomizeById(string comp, string user, string loca)
+        {
+            bool details = locationCustomizeController.LocationCustomizeById(comp, user, loca);
             return details;
         }
 

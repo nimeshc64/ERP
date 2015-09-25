@@ -1459,6 +1459,7 @@
           <s:element minOccurs="0" maxOccurs="1" name="COMPCODE" type="s:string" />
           <s:element minOccurs="0" maxOccurs="1" name="USERCODE" type="s:string" />
           <s:element minOccurs="0" maxOccurs="1" name="LOCACODE" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LOCA_DESCRIPT" type="s:string" />
         </s:sequence>
       </s:complexType>
       <s:element name="InsertLocationCustomizeResponse">
@@ -1486,8 +1487,9 @@
       <s:element name="DeleteLocationCustomize">
         <s:complexType>
           <s:sequence>
-            <s:element minOccurs="0" maxOccurs="1" name="code" type="s:string" />
-            <s:element minOccurs="0" maxOccurs="1" name="compCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="comp" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="loca" type="s:string" />
           </s:sequence>
         </s:complexType>
       </s:element>
@@ -1524,6 +1526,22 @@
         <s:complexType>
           <s:sequence>
             <s:element minOccurs="0" maxOccurs="1" name="GetAllUsersDetailsResult" type="tns:ArrayOfUSERINFO" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LocationCustomizeById">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="comp" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="loca" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LocationCustomizeByIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="LocationCustomizeByIdResult" type="s:boolean" />
           </s:sequence>
         </s:complexType>
       </s:element>
@@ -3013,6 +3031,12 @@
   <wsdl:message name="GetAllUsersDetailsSoapOut">
     <wsdl:part name="parameters" element="tns:GetAllUsersDetailsResponse" />
   </wsdl:message>
+  <wsdl:message name="LocationCustomizeByIdSoapIn">
+    <wsdl:part name="parameters" element="tns:LocationCustomizeById" />
+  </wsdl:message>
+  <wsdl:message name="LocationCustomizeByIdSoapOut">
+    <wsdl:part name="parameters" element="tns:LocationCustomizeByIdResponse" />
+  </wsdl:message>
   <wsdl:message name="InsertSupplierDetailsSoapIn">
     <wsdl:part name="parameters" element="tns:InsertSupplierDetails" />
   </wsdl:message>
@@ -3573,6 +3597,10 @@
     <wsdl:operation name="GetAllUsersDetails">
       <wsdl:input message="tns:GetAllUsersDetailsSoapIn" />
       <wsdl:output message="tns:GetAllUsersDetailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LocationCustomizeById">
+      <wsdl:input message="tns:LocationCustomizeByIdSoapIn" />
+      <wsdl:output message="tns:LocationCustomizeByIdSoapOut" />
     </wsdl:operation>
     <wsdl:operation name="InsertSupplierDetails">
       <wsdl:input message="tns:InsertSupplierDetailsSoapIn" />
@@ -4488,6 +4516,15 @@
     </wsdl:operation>
     <wsdl:operation name="GetAllUsersDetails">
       <soap:operation soapAction="http://tempuri.org/GetAllUsersDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LocationCustomizeById">
+      <soap:operation soapAction="http://tempuri.org/LocationCustomizeById" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -5589,6 +5626,15 @@
     </wsdl:operation>
     <wsdl:operation name="GetAllUsersDetails">
       <soap12:operation soapAction="http://tempuri.org/GetAllUsersDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LocationCustomizeById">
+      <soap12:operation soapAction="http://tempuri.org/LocationCustomizeById" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>

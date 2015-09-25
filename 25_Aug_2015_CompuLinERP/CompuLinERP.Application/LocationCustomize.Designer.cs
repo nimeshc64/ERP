@@ -32,6 +32,7 @@
             this.LId = new System.Windows.Forms.TextBox();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.resetB = new System.Windows.Forms.Button();
             this.delete = new System.Windows.Forms.Button();
             this.save = new System.Windows.Forms.Button();
@@ -41,7 +42,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.userC = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.panel1.SuspendLayout();
@@ -63,6 +63,7 @@
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(586, 163);
             this.dataGridView2.TabIndex = 11;
+            this.dataGridView2.RowHeaderMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView2_RowHeaderMouseDoubleClick);
             // 
             // panel1
             // 
@@ -80,6 +81,14 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(614, 280);
             this.panel1.TabIndex = 12;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(227, 23);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(163, 21);
+            this.comboBox1.TabIndex = 20;
             // 
             // resetB
             // 
@@ -162,14 +171,6 @@
             this.label1.Size = new System.Drawing.Size(79, 13);
             this.label1.TabIndex = 10;
             this.label1.Text = "Company Code";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(227, 23);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(163, 21);
-            this.comboBox1.TabIndex = 20;
             // 
             // userC
             // 

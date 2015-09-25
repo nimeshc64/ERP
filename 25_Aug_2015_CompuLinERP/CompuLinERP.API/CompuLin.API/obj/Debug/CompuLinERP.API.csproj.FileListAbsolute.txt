@@ -78,6 +78,6 @@ F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.AP
 F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\CompuLinERP.API.pdb
 F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\EntityFramework.dll
 F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\bin\Debug\EntityFramework.xml
-F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\obj\Debug\CompuLinERP.API.csprojResolveAssemblyReference.cache
 F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\obj\Debug\CompuLinERP.API.dll
 F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\obj\Debug\CompuLinERP.API.pdb
+F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.API\CompuLin.API\obj\Debug\CompuLinERP.API.csprojResolveAssemblyReference.cache

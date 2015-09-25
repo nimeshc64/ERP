@@ -33,7 +33,7 @@ namespace CompuLinERP.WIN
             dataGridView1.DataSource = null;
             LOCA_MAST[] details = webService.GetAllLocationDetails(_user.COMPCODE);
             dataGridView1.DataSource = details;
-            LOCA_DETAIL[] data = webService.GetAllLocationCustomize(_user.COMPCODE);
+            LOCA_DETAIL[] data = webService.GetAllLocationCustomize(_user.USERCODE);
             dataGridView2.DataSource = data;
             FillUserNames();
             SetupGridColumnOrdering();
@@ -82,12 +82,16 @@ namespace CompuLinERP.WIN
 
         private void save_Click(object sender, EventArgs e)
         {
+            bool checkST = false;
+            checkST = webService.LocationCustomizeById(company.Text, Convert.ToString(comboBox1.SelectedItem), location.Text);
             if (String.IsNullOrEmpty(company.Text))
                 MessageBox.Show("Company Code cannot be empty.");
             else if (comboBox1.SelectedIndex == -1)
                 MessageBox.Show("User Name cannot be empty.");
             else if (String.IsNullOrEmpty(location.Text))
-                MessageBox.Show("Location cannot be empty.");
+                MessageBox.Show("Location cannot be empty.");          
+            else if (checkST == true)
+                MessageBox.Show("The Data already existed");           
             else
             {
                 LOCA_DETAIL details = new LOCA_DETAIL();
@@ -96,7 +100,7 @@ namespace CompuLinERP.WIN
                 details.LOCACODE = location.Text;
                 bool status = false;
 
-                if (!String.IsNullOrEmpty(company.Text))
+                if (!String.IsNullOrEmpty(company.Text) && !String.IsNullOrEmpty(Convert.ToString(comboBox1.SelectedItem)) && !String.IsNullOrEmpty(location.Text))
                 {
                     status = webService.InsertLocationCustomize(details);
                 }
@@ -105,7 +109,8 @@ namespace CompuLinERP.WIN
 
                     LOCA_DETAIL searchdetails = new LOCA_DETAIL();
                     searchdetails.LOCACODE = location.Text;
-                    searchdetails.COMPCODE = _user.COMPCODE;
+                    searchdetails.COMPCODE = company.Text;
+                    searchdetails.USERCODE = Convert.ToString(comboBox1.SelectedItem);
 
                     status = webService.UpdateLocationCustomize(searchdetails, details);
                 }
@@ -119,9 +124,9 @@ namespace CompuLinERP.WIN
 
         private void delete_Click(object sender, EventArgs e)
         {
-            if (!String.IsNullOrEmpty(LId.Text))
+            if (!String.IsNullOrEmpty(company.Text) && !String.IsNullOrEmpty(Convert.ToString(comboBox1.SelectedItem)) && !String.IsNullOrEmpty(location.Text))
             {
-                bool status = webService.DeleteLocationCustomize((LId.Text), _user.COMPCODE);
+                bool status = webService.DeleteLocationCustomize(company.Text,Convert.ToString(comboBox1.SelectedItem),location.Text);
 
                 if (status)
                 {
@@ -134,5 +139,32 @@ namespace CompuLinERP.WIN
         {
             Reset();
         }
+
+        private void dataGridView2_RowHeaderMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                DataGridViewRow row = this.dataGridView2.Rows[e.RowIndex];
+                company.Text  = row.Cells["COMPCODE"].Value.ToString();
+                location.Text = row.Cells["LOCACODE"].Value.ToString();
+                comboBox1.SelectedItem = row.Cells["USERCODE"].Value.ToString();
+            }
+        }
+
+        //private bool check(string company,string user, string location)
+        //{
+        //    bool status = false;
+        //    for (int i = 0; i < dataGridView2.Rows.Count; i++)
+        //    {
+        //        for (int j = 0; j < dataGridView2.Columns.Count; j++)
+        //        {
+        //            if (company == dataGridView2.Rows[i].Cells[j].Value.ToString())
+        //            {
+        //                status = true;
+        //            }
+        //        }
+        //    }
+        //    return status;
+        //}
     }
 }

@@ -30,7 +30,7 @@ namespace CompuLinERP.API.Controllers
             {
                 var query = (from logInfo in entities.LOCA_DETAIL
                              where logInfo.COMPCODE == searchdetails.COMPCODE &&
-                             logInfo.LOCACODE == searchdetails.LOCACODE
+                             logInfo.LOCACODE == searchdetails.LOCACODE && logInfo.USERCODE == searchdetails.USERCODE
                              select logInfo);
 
                 if (query.Any())
@@ -46,13 +46,14 @@ namespace CompuLinERP.API.Controllers
             return true;
         }
 
-        public bool DeleteDetails(string code, string compCode)
+        public bool DeleteDetails(string comp, string user, string loca)
         {
             using (entities = new CompuLinEntityModelEntities())
             {
                 var query = (from details in entities.LOCA_DETAIL
-                             where details.COMPCODE == compCode &&
-                             details.LOCACODE == code
+                             where details.COMPCODE == comp &&
+                             details.USERCODE == user &&
+                             details.LOCACODE == loca
                              select details);
 
                 if (query.Any())
@@ -100,15 +101,16 @@ namespace CompuLinERP.API.Controllers
         public List<LOCA_DETAIL> GetAllLocationDetails(string userId)
         {
             List<LOCA_DETAIL> details = new List<LOCA_DETAIL>();
-
+            
             if (userId == "Admin")
             {
                 using (entities = new CompuLinEntityModelEntities())
                 {
-                    var query = (from info in entities.LOCA_DETAIL                               
+                    var query = (from info in entities.LOCA_DETAIL                             
                                  select info);
+                   
                     if (query.Any())
-                        details = query.ToList();
+                        details = query.ToList();            
                 }
             }
             else
@@ -125,6 +127,29 @@ namespace CompuLinERP.API.Controllers
             
             return details;
         }
+
+        public bool LocationCustomizeById(string comp, string user, string loca)
+        {
+            bool details=false ;
+
+            using (entities = new CompuLinEntityModelEntities())
+            {
+                var query = (from info in entities.LOCA_DETAIL
+                             where info.COMPCODE == comp &&
+                             info.USERCODE == user &&
+                             info.LOCACODE == loca
+                             select info);
+                //if (query.Any())
+                //    details = query.ToList().First();
+                if (query.Count() > 0)
+                {
+                    details = true;
+                }
+            }
+
+            return details;
+        }
+
 
     }
 }

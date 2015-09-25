@@ -9,3 +9,8 @@ F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.WEB\bin\CompuLinERP
 F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.WEB\obj\Debug\CompuLinERP.WEB.dll
 F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.WEB\obj\Debug\CompuLinERP.WEB.pdb
 F:\My Development\ERP c#\25_Aug_2015_CompuLinERP\CompuLinERP.WEB\obj\Debug\CompuLinERP.WEB.csprojResolveAssemblyReference.cache
+F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WEB\bin\CompuLinERP.WEB.dll.config
+F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WEB\bin\CompuLinERP.WEB.dll
+F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WEB\bin\CompuLinERP.WEB.pdb
+F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WEB\obj\Debug\CompuLinERP.WEB.dll
+F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WEB\obj\Debug\CompuLinERP.WEB.pdb

@@ -201,6 +201,8 @@ namespace CompuLinERP.WIN.InventoryWebService {
         
         private System.Threading.SendOrPostCallback GetAllUsersDetailsOperationCompleted;
         
+        private System.Threading.SendOrPostCallback LocationCustomizeByIdOperationCompleted;
+        
         private System.Threading.SendOrPostCallback InsertSupplierDetailsOperationCompleted;
         
         private System.Threading.SendOrPostCallback UpdateSupplierDetailsOperationCompleted;
@@ -568,6 +570,9 @@ namespace CompuLinERP.WIN.InventoryWebService {
         
         /// <remarks/>
         public event GetAllUsersDetailsCompletedEventHandler GetAllUsersDetailsCompleted;
+        
+        /// <remarks/>
+        public event LocationCustomizeByIdCompletedEventHandler LocationCustomizeByIdCompleted;
         
         /// <remarks/>
         public event InsertSupplierDetailsCompletedEventHandler InsertSupplierDetailsCompleted;
@@ -3124,26 +3129,28 @@ namespace CompuLinERP.WIN.InventoryWebService {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/DeleteLocationCustomize", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
-        public bool DeleteLocationCustomize(string code, string compCode) {
+        public bool DeleteLocationCustomize(string comp, string user, string loca) {
             object[] results = this.Invoke("DeleteLocationCustomize", new object[] {
-                        code,
-                        compCode});
+                        comp,
+                        user,
+                        loca});
             return ((bool)(results[0]));
         }
         
         /// <remarks/>
-        public void DeleteLocationCustomizeAsync(string code, string compCode) {
-            this.DeleteLocationCustomizeAsync(code, compCode, null);
+        public void DeleteLocationCustomizeAsync(string comp, string user, string loca) {
+            this.DeleteLocationCustomizeAsync(comp, user, loca, null);
         }
         
         /// <remarks/>
-        public void DeleteLocationCustomizeAsync(string code, string compCode, object userState) {
+        public void DeleteLocationCustomizeAsync(string comp, string user, string loca, object userState) {
             if ((this.DeleteLocationCustomizeOperationCompleted == null)) {
                 this.DeleteLocationCustomizeOperationCompleted = new System.Threading.SendOrPostCallback(this.OnDeleteLocationCustomizeOperationCompleted);
             }
             this.InvokeAsync("DeleteLocationCustomize", new object[] {
-                        code,
-                        compCode}, this.DeleteLocationCustomizeOperationCompleted, userState);
+                        comp,
+                        user,
+                        loca}, this.DeleteLocationCustomizeOperationCompleted, userState);
         }
         
         private void OnDeleteLocationCustomizeOperationCompleted(object arg) {
@@ -3206,6 +3213,39 @@ namespace CompuLinERP.WIN.InventoryWebService {
             if ((this.GetAllUsersDetailsCompleted != null)) {
                 System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
                 this.GetAllUsersDetailsCompleted(this, new GetAllUsersDetailsCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
+            }
+        }
+        
+        /// <remarks/>
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/LocationCustomizeById", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        public bool LocationCustomizeById(string comp, string user, string loca) {
+            object[] results = this.Invoke("LocationCustomizeById", new object[] {
+                        comp,
+                        user,
+                        loca});
+            return ((bool)(results[0]));
+        }
+        
+        /// <remarks/>
+        public void LocationCustomizeByIdAsync(string comp, string user, string loca) {
+            this.LocationCustomizeByIdAsync(comp, user, loca, null);
+        }
+        
+        /// <remarks/>
+        public void LocationCustomizeByIdAsync(string comp, string user, string loca, object userState) {
+            if ((this.LocationCustomizeByIdOperationCompleted == null)) {
+                this.LocationCustomizeByIdOperationCompleted = new System.Threading.SendOrPostCallback(this.OnLocationCustomizeByIdOperationCompleted);
+            }
+            this.InvokeAsync("LocationCustomizeById", new object[] {
+                        comp,
+                        user,
+                        loca}, this.LocationCustomizeByIdOperationCompleted, userState);
+        }
+        
+        private void OnLocationCustomizeByIdOperationCompleted(object arg) {
+            if ((this.LocationCustomizeByIdCompleted != null)) {
+                System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
+                this.LocationCustomizeByIdCompleted(this, new LocationCustomizeByIdCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
             }
         }
         
@@ -8494,6 +8534,8 @@ namespace CompuLinERP.WIN.InventoryWebService {
         
         private string lOCACODEField;
         
+        private string lOCA_DESCRIPTField;
+        
         /// <remarks/>
         public string COMPCODE {
             get {
@@ -8521,6 +8563,16 @@ namespace CompuLinERP.WIN.InventoryWebService {
             }
             set {
                 this.lOCACODEField = value;
+            }
+        }
+        
+        /// <remarks/>
+        public string LOCA_DESCRIPT {
+            get {
+                return this.lOCA_DESCRIPTField;
+            }
+            set {
+                this.lOCA_DESCRIPTField = value;
             }
         }
     }
@@ -12727,6 +12779,32 @@ namespace CompuLinERP.WIN.InventoryWebService {
             get {
                 this.RaiseExceptionIfNecessary();
                 return ((USERINFO[])(this.results[0]));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.0.30319.34209")]
+    public delegate void LocationCustomizeByIdCompletedEventHandler(object sender, LocationCustomizeByIdCompletedEventArgs e);
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.0.30319.34209")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    public partial class LocationCustomizeByIdCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        internal LocationCustomizeByIdCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        /// <remarks/>
+        public bool Result {
+            get {
+                this.RaiseExceptionIfNecessary();
+                return ((bool)(this.results[0]));
             }
         }
     }
