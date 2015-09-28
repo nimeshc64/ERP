@@ -193,3 +193,4 @@ F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj
 F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.exe
 F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.pdb
 F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.csprojResolveAssemblyReference.cache
+F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.Application\obj\x86\Debug\CompuLinERP.WIN.AccUpdate.resources

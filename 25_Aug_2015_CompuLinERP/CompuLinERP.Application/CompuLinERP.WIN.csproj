@@ -99,6 +99,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccUpdate.Designer.cs">
+      <DependentUpon>AccUpdate.cs</DependentUpon>
+    </Compile>
     <Compile Include="CategoryDetails.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -331,6 +337,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.map</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AccUpdate.resx">
+      <DependentUpon>AccUpdate.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CategoryDetails.resx">
       <DependentUpon>CategoryDetails.cs</DependentUpon>
       <SubType>Designer</SubType>

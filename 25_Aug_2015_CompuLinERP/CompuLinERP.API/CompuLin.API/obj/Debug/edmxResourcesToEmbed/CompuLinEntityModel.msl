@@ -890,5 +890,17 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="INV_ACC_GLCODES">
+      <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.INV_ACC_GLCODES">
+        <MappingFragment StoreEntitySet="INV_ACC_GLCODES">
+          <ScalarProperty Name="GLCODE" ColumnName="GLCODE" />
+          <ScalarProperty Name="IS_DBT" ColumnName="IS_DBT" />
+          <ScalarProperty Name="SEQNO" ColumnName="SEQNO" />
+          <ScalarProperty Name="TXN_TYPE" ColumnName="TXN_TYPE" />
+          <ScalarProperty Name="TXN_NAME" ColumnName="TXN_NAME" />
+          <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

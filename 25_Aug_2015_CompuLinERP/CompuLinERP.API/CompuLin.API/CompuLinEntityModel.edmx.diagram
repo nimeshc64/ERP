@@ -45,6 +45,7 @@
         <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.ITEM_MAST_004" Width="1.5" PointX="20.75" PointY="8.75" />
         <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.NETWORK" Width="1.5" PointX="11.375" PointY="20.75" />
         <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.LOCA_DETAIL" Width="1.5" PointX="13.375" PointY="20.75" />
+        <EntityTypeShape EntityType="CompuLinERP.API.CompuLinEntityModel.INV_ACC_GLCODES" Width="1.5" PointX="19.375" PointY="20.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

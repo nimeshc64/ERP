@@ -349,6 +349,20 @@
           <Property Name="DISCOUNT" Type="numeric" Precision="18" Scale="2" />
           <Property Name="DISCOUNT_AMT" Type="numeric" Precision="18" Scale="2" />
         </EntityType>
+        <EntityType Name="INV_ACC_GLCODES">
+          <Key>
+            <PropertyRef Name="COMPCODE" />
+            <PropertyRef Name="TXN_NAME" />
+            <PropertyRef Name="TXN_TYPE" />
+            <PropertyRef Name="SEQNO" />
+          </Key>
+          <Property Name="COMPCODE" Type="varchar" MaxLength="5" Nullable="false" />
+          <Property Name="TXN_NAME" Type="varchar" MaxLength="5" Nullable="false" />
+          <Property Name="TXN_TYPE" Type="varchar" MaxLength="5" Nullable="false" />
+          <Property Name="SEQNO" Type="numeric" Precision="1" Scale="0" Nullable="false" />
+          <Property Name="IS_DBT" Type="numeric" Precision="1" Scale="0" />
+          <Property Name="GLCODE" Type="varchar" MaxLength="6" Nullable="false" />
+        </EntityType>
         <EntityType Name="INV_DETAIL">
           <Key>
             <PropertyRef Name="COMPCODE" />
@@ -995,6 +1009,7 @@ warning 6002: The table/view 'Inventory.dbo.ITEM_MAST_004' does not have a prima
           <EntitySet Name="GL" EntityType="Self.GL" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="GRN_DETAIL" EntityType="Self.GRN_DETAIL" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="GRN_MAST" EntityType="Self.GRN_MAST" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="INV_ACC_GLCODES" EntityType="Self.INV_ACC_GLCODES" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="INV_DETAIL" EntityType="Self.INV_DETAIL" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="INV_MAST" EntityType="Self.INV_MAST" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="ITEM_CUTLIST" EntityType="Self.ITEM_CUTLIST" Schema="dbo" store:Type="Tables" />
@@ -1157,6 +1172,7 @@ FROM [dbo].[ITEM_MAST_004] AS [ITEM_MAST_004]</DefiningQuery>
           <EntitySet Name="ITEM_MAST_004" EntityType="CompuLinERP.API.CompuLinEntityModel.ITEM_MAST_004" />
           <EntitySet Name="NETWORKs" EntityType="CompuLinERP.API.CompuLinEntityModel.NETWORK" />
           <EntitySet Name="LOCA_DETAIL" EntityType="CompuLinERP.API.CompuLinEntityModel.LOCA_DETAIL" />
+          <EntitySet Name="INV_ACC_GLCODES" EntityType="CompuLinERP.API.CompuLinEntityModel.INV_ACC_GLCODES" />
         </EntityContainer>
         <EntityType Name="ACC_CAT_L1">
           <Key>
@@ -2127,6 +2143,20 @@ FROM [dbo].[ITEM_MAST_004] AS [ITEM_MAST_004]</DefiningQuery>
           <Property Name="USERCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="LOCACODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
         </EntityType>
+        <EntityType Name="INV_ACC_GLCODES">
+          <Key>
+            <PropertyRef Name="COMPCODE" />
+            <PropertyRef Name="TXN_NAME" />
+            <PropertyRef Name="TXN_TYPE" />
+            <PropertyRef Name="SEQNO" />
+          </Key>
+          <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="TXN_NAME" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="TXN_TYPE" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="SEQNO" Type="Decimal" Nullable="false" Precision="1" Scale="0" />
+          <Property Name="IS_DBT" Type="Decimal" Precision="1" Scale="0" />
+          <Property Name="GLCODE" Type="String" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+        </EntityType>
         </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -3018,6 +3048,18 @@ FROM [dbo].[ITEM_MAST_004] AS [ITEM_MAST_004]</DefiningQuery>
               <MappingFragment StoreEntitySet="LOCA_DETAIL">
                 <ScalarProperty Name="LOCACODE" ColumnName="LOCACODE" />
                 <ScalarProperty Name="USERCODE" ColumnName="USERCODE" />
+                <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="INV_ACC_GLCODES">
+            <EntityTypeMapping TypeName="CompuLinERP.API.CompuLinEntityModel.INV_ACC_GLCODES">
+              <MappingFragment StoreEntitySet="INV_ACC_GLCODES">
+                <ScalarProperty Name="GLCODE" ColumnName="GLCODE" />
+                <ScalarProperty Name="IS_DBT" ColumnName="IS_DBT" />
+                <ScalarProperty Name="SEQNO" ColumnName="SEQNO" />
+                <ScalarProperty Name="TXN_TYPE" ColumnName="TXN_TYPE" />
+                <ScalarProperty Name="TXN_NAME" ColumnName="TXN_NAME" />
                 <ScalarProperty Name="COMPCODE" ColumnName="COMPCODE" />
               </MappingFragment>
             </EntityTypeMapping>

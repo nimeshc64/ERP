@@ -65,5 +65,6 @@ namespace CompuLinERP.API
         public DbSet<ITEM_MAST_004> ITEM_MAST_004 { get; set; }
         public DbSet<NETWORK> NETWORKs { get; set; }
         public DbSet<LOCA_DETAIL> LOCA_DETAIL { get; set; }
+        public DbSet<INV_ACC_GLCODES> INV_ACC_GLCODES { get; set; }
     }
 }

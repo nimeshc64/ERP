@@ -41,6 +41,7 @@
     <EntitySet Name="ITEM_MAST_004" EntityType="CompuLinERP.API.CompuLinEntityModel.ITEM_MAST_004" />
     <EntitySet Name="NETWORKs" EntityType="CompuLinERP.API.CompuLinEntityModel.NETWORK" />
     <EntitySet Name="LOCA_DETAIL" EntityType="CompuLinERP.API.CompuLinEntityModel.LOCA_DETAIL" />
+    <EntitySet Name="INV_ACC_GLCODES" EntityType="CompuLinERP.API.CompuLinEntityModel.INV_ACC_GLCODES" />
   </EntityContainer>
   <EntityType Name="ACC_CAT_L1">
     <Key>
@@ -1010,5 +1011,19 @@
     <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="USERCODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="LOCACODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="INV_ACC_GLCODES">
+    <Key>
+      <PropertyRef Name="COMPCODE" />
+      <PropertyRef Name="TXN_NAME" />
+      <PropertyRef Name="TXN_TYPE" />
+      <PropertyRef Name="SEQNO" />
+    </Key>
+    <Property Name="COMPCODE" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="TXN_NAME" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="TXN_TYPE" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="SEQNO" Type="Decimal" Nullable="false" Precision="1" Scale="0" />
+    <Property Name="IS_DBT" Type="Decimal" Precision="1" Scale="0" />
+    <Property Name="GLCODE" Type="String" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
   </EntityType>
 </Schema>

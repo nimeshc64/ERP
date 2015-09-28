@@ -104,6 +104,6 @@ F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\
 F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\EntityFramework.dll
 F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\CompuLinERP.API.pdb
 F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\bin\EntityFramework.xml
-F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.csprojResolveAssemblyReference.cache
 F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.dll
 F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.pdb
+F:\My Development\ERP c#\ERP\25_Aug_2015_CompuLinERP\CompuLinERP.WebService\obj\Debug\CompuLinERP.WebService.csprojResolveAssemblyReference.cache

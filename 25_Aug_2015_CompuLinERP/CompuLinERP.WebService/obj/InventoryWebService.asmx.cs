@@ -58,8 +58,9 @@ namespace CompuLinINV.WebService
         ReceiptDetailsController receiptDetail = new ReceiptDetailsController();
         ReceiptInvController receiptInv = new ReceiptInvController();
         LocationCustomizeController locationCustomizeController = new LocationCustomizeController();
-    
-
+       // AccUpdateController accupdate = new AccUpdateController();
+        
+        
 
         #region UserAndCompanyInfo
 
@@ -732,6 +733,16 @@ namespace CompuLinINV.WebService
             return details;
         }
 
+        #endregion
+
+        #region ACCUpdate
+        [WebMethod]
+
+        public bool InsertAccUpdate(INV_ACC_GLCODES details)
+        {
+            bool status=false;
+            return status;
+        }
         #endregion
 
         #region SupplierDetails

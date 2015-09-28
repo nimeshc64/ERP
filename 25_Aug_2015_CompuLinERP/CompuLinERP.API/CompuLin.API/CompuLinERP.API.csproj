@@ -97,6 +97,7 @@
     <Compile Include="Controllers\AccountL3Controller.cs" />
     <Compile Include="Controllers\AccountL4Controller.cs" />
     <Compile Include="Controllers\AccountL5Controller.cs" />
+    <Compile Include="Controllers\AccUpdateController.cs" />
     <Compile Include="Controllers\CategoryL4Controller.cs" />
     <Compile Include="Controllers\CategoryL3Controller.cs" />
     <Compile Include="Controllers\CategoryL2Controller.cs" />
@@ -150,6 +151,9 @@
       <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
     </Compile>
     <Compile Include="GRN_MAST.cs">
+      <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="INV_ACC_GLCODES.cs">
       <DependentUpon>CompuLinEntityModel.tt</DependentUpon>
     </Compile>
     <Compile Include="INV_DETAIL.cs">
